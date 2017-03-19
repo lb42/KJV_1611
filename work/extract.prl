@@ -1,0 +1,11 @@
+
+$state= 0;
+while (<>) {
+chop;
+#print "state = $state \n";
+#print $_;
+$state= 1 if ($_ =~ /\<div id\=\'wrap/);
+$state= 2 if ($_ =~ /Courtesy of Rare/);
+print if ($state == 1);
+
+}

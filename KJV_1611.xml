@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="KJV_1611.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Holy Bible : 1611 edition</title>
+            </titleStmt>
+            <publicationStmt>
+                <ab>Distributed via the GitHub repository lb42.github.io/KJV_1611</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <ab>The transcription was downloaded from the website www.kingjamesbibleonline.org
+                    on February 18 March, and the resulting web files reprocessed by a variety of
+                    tools to produce a TEI conformant XML version.</ab>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-02-19">Added TEI Header and titlepage from Wikimedia</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <pb
+                    facs="https://upload.wikimedia.org/wikipedia/commons/5/5d/KJV-King-James-Version-Bible-first-edition-title-page-1611.jpg"/>
+                <docTitle>
+                    <titlePart>THE HOLY BIBLE, Conteyning the Old Teſtament, AND THE
+                        NEW:</titlePart>
+                </docTitle>
+                <titlePart> Newly Tranſlated out of the Originall tongues: &amp; with the former
+                    Tranſlations diligently compared and reuiſed, by his Maiesties speciall
+                    Comandement. </titlePart>
+                <titlePart>Appointed to be read in Churches.</titlePart>
+                <docImprint> Imprinted at London by Robert Barker, Printer to the Kings moſt
+                    Excellent Maiestie. ANNO DOM. 1611 .</docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div type="book" n="01" xml:id="KJV_GEN">
+                <head>Genesis</head>
+                <xi:include href="chaps/Genesis_01.xml"/>
+                <xi:include href="chaps/Genesis_02.xml"/>
+                <xi:include href="chaps/Genesis_03.xml"/>
+                <xi:include href="chaps/Genesis_04.xml"/>
+                <xi:include href="chaps/Genesis_05.xml"/>
+                <xi:include href="chaps/Genesis_06.xml"/>
+                <xi:include href="chaps/Genesis_07.xml"/>
+                <xi:include href="chaps/Genesis_08.xml"/>
+                <xi:include href="chaps/Genesis_09.xml"/>
+                <xi:include href="chaps/Genesis_10.xml"/>
+                <xi:include href="chaps/Genesis_11.xml"/>
+                <xi:include href="chaps/Genesis_12.xml"/>
+                <xi:include href="chaps/Genesis_13.xml"/>
+                <xi:include href="chaps/Genesis_14.xml"/>
+                <xi:include href="chaps/Genesis_15.xml"/>
+                <xi:include href="chaps/Genesis_16.xml"/>
+                <xi:include href="chaps/Genesis_17.xml"/>
+                <xi:include href="chaps/Genesis_18.xml"/>
+                <xi:include href="chaps/Genesis_19.xml"/>
+                <xi:include href="chaps/Genesis_20.xml"/>
+                <xi:include href="chaps/Genesis_21.xml"/>
+                <xi:include href="chaps/Genesis_22.xml"/>
+                <xi:include href="chaps/Genesis_23.xml"/>
+                <xi:include href="chaps/Genesis_24.xml"/>
+                <xi:include href="chaps/Genesis_25.xml"/>
+                <xi:include href="chaps/Genesis_26.xml"/>
+                <xi:include href="chaps/Genesis_27.xml"/>
+                <xi:include href="chaps/Genesis_28.xml"/>
+                <xi:include href="chaps/Genesis_29.xml"/>
+                <xi:include href="chaps/Genesis_30.xml"/>
+                <xi:include href="chaps/Genesis_31.xml"/>
+                <xi:include href="chaps/Genesis_32.xml"/>
+                <xi:include href="chaps/Genesis_33.xml"/>
+                <xi:include href="chaps/Genesis_34.xml"/>
+                <xi:include href="chaps/Genesis_35.xml"/>
+                <xi:include href="chaps/Genesis_36.xml"/>
+                <xi:include href="chaps/Genesis_37.xml"/>
+                <xi:include href="chaps/Genesis_38.xml"/>
+                <xi:include href="chaps/Genesis_39.xml"/>
+                <xi:include href="chaps/Genesis_40.xml"/>
+                <xi:include href="chaps/Genesis_41.xml"/>
+                <xi:include href="chaps/Genesis_42.xml"/>
+                <xi:include href="chaps/Genesis_43.xml"/>
+                <xi:include href="chaps/Genesis_44.xml"/>
+                <xi:include href="chaps/Genesis_45.xml"/>
+                <xi:include href="chaps/Genesis_46.xml"/>
+                <xi:include href="chaps/Genesis_47.xml"/>
+                <xi:include href="chaps/Genesis_48.xml"/>
+                <xi:include href="chaps/Genesis_49.xml"/>
+                <xi:include href="chaps/Genesis_50.xml"/>
+            </div>
+            <div type="book" n="02" xml:id="KJV_EXO">
+                <head>Exodus</head>
+                <xi:include href="chaps/Exodus_01.xml"/>
+                <xi:include href="chaps/Exodus_02.xml"/>
+                <xi:include href="chaps/Exodus_03.xml"/>
+                <xi:include href="chaps/Exodus_04.xml"/>
+                <xi:include href="chaps/Exodus_05.xml"/>
+                <xi:include href="chaps/Exodus_06.xml"/>
+                <xi:include href="chaps/Exodus_07.xml"/>
+                <xi:include href="chaps/Exodus_08.xml"/>
+                <xi:include href="chaps/Exodus_09.xml"/>
+                <xi:include href="chaps/Exodus_10.xml"/>
+                <xi:include href="chaps/Exodus_11.xml"/>
+                <xi:include href="chaps/Exodus_12.xml"/>
+                <xi:include href="chaps/Exodus_13.xml"/>
+                <xi:include href="chaps/Exodus_14.xml"/>
+                <xi:include href="chaps/Exodus_15.xml"/>
+                <xi:include href="chaps/Exodus_16.xml"/>
+                <xi:include href="chaps/Exodus_17.xml"/>
+                <xi:include href="chaps/Exodus_18.xml"/>
+                <xi:include href="chaps/Exodus_19.xml"/>
+                <xi:include href="chaps/Exodus_20.xml"/>
+                <xi:include href="chaps/Exodus_21.xml"/>
+                <xi:include href="chaps/Exodus_22.xml"/>
+                <xi:include href="chaps/Exodus_23.xml"/>
+                <xi:include href="chaps/Exodus_24.xml"/>
+                <xi:include href="chaps/Exodus_25.xml"/>
+                <xi:include href="chaps/Exodus_26.xml"/>
+                <xi:include href="chaps/Exodus_27.xml"/>
+                <xi:include href="chaps/Exodus_28.xml"/>
+                <xi:include href="chaps/Exodus_29.xml"/>
+                <xi:include href="chaps/Exodus_30.xml"/>
+                <xi:include href="chaps/Exodus_31.xml"/>
+                <xi:include href="chaps/Exodus_32.xml"/>
+                <xi:include href="chaps/Exodus_33.xml"/>
+                <xi:include href="chaps/Exodus_34.xml"/>
+                <xi:include href="chaps/Exodus_35.xml"/>
+                <xi:include href="chaps/Exodus_36.xml"/>
+                <xi:include href="chaps/Exodus_37.xml"/>
+                <xi:include href="chaps/Exodus_38.xml"/>
+                <xi:include href="chaps/Exodus_39.xml"/>
+                <xi:include href="chaps/Exodus_40.xml"/>
+            </div>
+            <div type="book" n="03" xml:id="KJV_LEV">
+                <head>Leviticus</head>
+                <xi:include href="chaps/Leviticus_01.xml"/>
+                <xi:include href="chaps/Leviticus_02.xml"/>
+                <xi:include href="chaps/Leviticus_03.xml"/>
+                <xi:include href="chaps/Leviticus_04.xml"/>
+                <xi:include href="chaps/Leviticus_05.xml"/>
+                <xi:include href="chaps/Leviticus_06.xml"/>
+                <xi:include href="chaps/Leviticus_07.xml"/>
+                <xi:include href="chaps/Leviticus_08.xml"/>
+                <xi:include href="chaps/Leviticus_09.xml"/>
+                <xi:include href="chaps/Leviticus_10.xml"/>
+                <xi:include href="chaps/Leviticus_11.xml"/>
+                <xi:include href="chaps/Leviticus_12.xml"/>
+                <xi:include href="chaps/Leviticus_13.xml"/>
+                <xi:include href="chaps/Leviticus_14.xml"/>
+                <xi:include href="chaps/Leviticus_15.xml"/>
+                <xi:include href="chaps/Leviticus_16.xml"/>
+                <xi:include href="chaps/Leviticus_17.xml"/>
+                <xi:include href="chaps/Leviticus_18.xml"/>
+                <xi:include href="chaps/Leviticus_19.xml"/>
+                <xi:include href="chaps/Leviticus_20.xml"/>
+                <xi:include href="chaps/Leviticus_21.xml"/>
+                <xi:include href="chaps/Leviticus_22.xml"/>
+                <xi:include href="chaps/Leviticus_23.xml"/>
+                <xi:include href="chaps/Leviticus_24.xml"/>
+                <xi:include href="chaps/Leviticus_25.xml"/>
+                <xi:include href="chaps/Leviticus_26.xml"/>
+                <xi:include href="chaps/Leviticus_27.xml"/>
+            </div>
+            <div type="book" n="04" xml:id="KJV_NUM">
+                <head>Numbers</head>
+                <xi:include href="chaps/Numbers_01.xml"/>
+                <xi:include href="chaps/Numbers_02.xml"/>
+                <xi:include href="chaps/Numbers_03.xml"/>
+                <xi:include href="chaps/Numbers_04.xml"/>
+                <xi:include href="chaps/Numbers_05.xml"/>
+                <xi:include href="chaps/Numbers_06.xml"/>
+                <xi:include href="chaps/Numbers_07.xml"/>
+                <xi:include href="chaps/Numbers_08.xml"/>
+                <xi:include href="chaps/Numbers_09.xml"/>
+                <xi:include href="chaps/Numbers_10.xml"/>
+                <xi:include href="chaps/Numbers_11.xml"/>
+                <xi:include href="chaps/Numbers_12.xml"/>
+                <xi:include href="chaps/Numbers_13.xml"/>
+                <xi:include href="chaps/Numbers_14.xml"/>
+                <xi:include href="chaps/Numbers_15.xml"/>
+                <xi:include href="chaps/Numbers_16.xml"/>
+                <xi:include href="chaps/Numbers_17.xml"/>
+                <xi:include href="chaps/Numbers_18.xml"/>
+                <xi:include href="chaps/Numbers_19.xml"/>
+                <xi:include href="chaps/Numbers_20.xml"/>
+                <xi:include href="chaps/Numbers_21.xml"/>
+                <xi:include href="chaps/Numbers_22.xml"/>
+                <xi:include href="chaps/Numbers_23.xml"/>
+                <xi:include href="chaps/Numbers_24.xml"/>
+                <xi:include href="chaps/Numbers_25.xml"/>
+                <xi:include href="chaps/Numbers_26.xml"/>
+                <xi:include href="chaps/Numbers_27.xml"/>
+                <xi:include href="chaps/Numbers_28.xml"/>
+                <xi:include href="chaps/Numbers_29.xml"/>
+                <xi:include href="chaps/Numbers_30.xml"/>
+                <xi:include href="chaps/Numbers_31.xml"/>
+                <xi:include href="chaps/Numbers_32.xml"/>
+                <xi:include href="chaps/Numbers_33.xml"/>
+                <xi:include href="chaps/Numbers_34.xml"/>
+                <xi:include href="chaps/Numbers_35.xml"/>
+                <xi:include href="chaps/Numbers_36.xml"/>
+            </div>
+            <div type="book" n="05" xml:id="KJV_DEU">
+                <head>Deuteronomy</head>
+                <xi:include href="chaps/Deuteronomy_01.xml"/>
+                <xi:include href="chaps/Deuteronomy_02.xml"/>
+                <xi:include href="chaps/Deuteronomy_03.xml"/>
+                <xi:include href="chaps/Deuteronomy_04.xml"/>
+                <xi:include href="chaps/Deuteronomy_05.xml"/>
+                <xi:include href="chaps/Deuteronomy_06.xml"/>
+                <xi:include href="chaps/Deuteronomy_07.xml"/>
+                <xi:include href="chaps/Deuteronomy_08.xml"/>
+                <xi:include href="chaps/Deuteronomy_09.xml"/>
+                <xi:include href="chaps/Deuteronomy_10.xml"/>
+                <xi:include href="chaps/Deuteronomy_11.xml"/>
+                <xi:include href="chaps/Deuteronomy_12.xml"/>
+                <xi:include href="chaps/Deuteronomy_13.xml"/>
+                <xi:include href="chaps/Deuteronomy_14.xml"/>
+                <xi:include href="chaps/Deuteronomy_15.xml"/>
+                <xi:include href="chaps/Deuteronomy_16.xml"/>
+                <xi:include href="chaps/Deuteronomy_17.xml"/>
+                <xi:include href="chaps/Deuteronomy_18.xml"/>
+                <xi:include href="chaps/Deuteronomy_19.xml"/>
+                <xi:include href="chaps/Deuteronomy_20.xml"/>
+                <xi:include href="chaps/Deuteronomy_21.xml"/>
+                <xi:include href="chaps/Deuteronomy_22.xml"/>
+                <xi:include href="chaps/Deuteronomy_23.xml"/>
+                <xi:include href="chaps/Deuteronomy_24.xml"/>
+                <xi:include href="chaps/Deuteronomy_25.xml"/>
+                <xi:include href="chaps/Deuteronomy_26.xml"/>
+                <xi:include href="chaps/Deuteronomy_27.xml"/>
+                <xi:include href="chaps/Deuteronomy_28.xml"/>
+                <xi:include href="chaps/Deuteronomy_29.xml"/>
+                <xi:include href="chaps/Deuteronomy_30.xml"/>
+                <xi:include href="chaps/Deuteronomy_31.xml"/>
+                <xi:include href="chaps/Deuteronomy_32.xml"/>
+                <xi:include href="chaps/Deuteronomy_33.xml"/>
+                <xi:include href="chaps/Deuteronomy_34.xml"/>
+            </div>
+            <div type="book" n="06" xml:id="KJV_JOS">
+                <head>Joshua</head>
+                <xi:include href="chaps/Joshua_01.xml"/>
+                <xi:include href="chaps/Joshua_02.xml"/>
+                <xi:include href="chaps/Joshua_03.xml"/>
+                <xi:include href="chaps/Joshua_04.xml"/>
+                <xi:include href="chaps/Joshua_05.xml"/>
+                <xi:include href="chaps/Joshua_06.xml"/>
+                <xi:include href="chaps/Joshua_07.xml"/>
+                <xi:include href="chaps/Joshua_08.xml"/>
+                <xi:include href="chaps/Joshua_09.xml"/>
+                <xi:include href="chaps/Joshua_10.xml"/>
+                <xi:include href="chaps/Joshua_11.xml"/>
+                <xi:include href="chaps/Joshua_12.xml"/>
+                <xi:include href="chaps/Joshua_13.xml"/>
+                <xi:include href="chaps/Joshua_14.xml"/>
+                <xi:include href="chaps/Joshua_15.xml"/>
+                <xi:include href="chaps/Joshua_16.xml"/>
+                <xi:include href="chaps/Joshua_17.xml"/>
+                <xi:include href="chaps/Joshua_18.xml"/>
+                <xi:include href="chaps/Joshua_19.xml"/>
+                <xi:include href="chaps/Joshua_20.xml"/>
+                <xi:include href="chaps/Joshua_21.xml"/>
+                <xi:include href="chaps/Joshua_22.xml"/>
+                <xi:include href="chaps/Joshua_23.xml"/>
+                <xi:include href="chaps/Joshua_24.xml"/>
+            </div>
+            <div type="book" n="07" xml:id="KJV_JUD">
+                <head>Judges</head>
+                <xi:include href="chaps/Judges_01.xml"/>
+                <xi:include href="chaps/Judges_02.xml"/>
+                <xi:include href="chaps/Judges_03.xml"/>
+                <xi:include href="chaps/Judges_04.xml"/>
+                <xi:include href="chaps/Judges_05.xml"/>
+                <xi:include href="chaps/Judges_06.xml"/>
+                <xi:include href="chaps/Judges_07.xml"/>
+                <xi:include href="chaps/Judges_08.xml"/>
+                <xi:include href="chaps/Judges_09.xml"/>
+                <xi:include href="chaps/Judges_10.xml"/>
+                <xi:include href="chaps/Judges_11.xml"/>
+                <xi:include href="chaps/Judges_12.xml"/>
+                <xi:include href="chaps/Judges_13.xml"/>
+                <xi:include href="chaps/Judges_14.xml"/>
+                <xi:include href="chaps/Judges_15.xml"/>
+                <xi:include href="chaps/Judges_16.xml"/>
+                <xi:include href="chaps/Judges_17.xml"/>
+                <xi:include href="chaps/Judges_18.xml"/>
+                <xi:include href="chaps/Judges_19.xml"/>
+                <xi:include href="chaps/Judges_20.xml"/>
+                <xi:include href="chaps/Judges_21.xml"/>
+            </div>
+            <div type="book" n="08" xml:id="KJV_RUT">
+                <head>Ruth</head>
+                <xi:include href="chaps/Ruth_01.xml"/>
+                <xi:include href="chaps/Ruth_02.xml"/>
+                <xi:include href="chaps/Ruth_03.xml"/>
+                <xi:include href="chaps/Ruth_04.xml"/>
+            </div>
+            <div type="book" n="09" xml:id="KJV_1SA">
+                <head>1 Samuel</head>
+                <xi:include href="chaps/1-Samuel_01.xml"/>
+                <xi:include href="chaps/1-Samuel_02.xml"/>
+                <xi:include href="chaps/1-Samuel_03.xml"/>
+                <xi:include href="chaps/1-Samuel_04.xml"/>
+                <xi:include href="chaps/1-Samuel_05.xml"/>
+                <xi:include href="chaps/1-Samuel_06.xml"/>
+                <xi:include href="chaps/1-Samuel_07.xml"/>
+                <xi:include href="chaps/1-Samuel_08.xml"/>
+                <xi:include href="chaps/1-Samuel_09.xml"/>
+                <xi:include href="chaps/1-Samuel_10.xml"/>
+                <xi:include href="chaps/1-Samuel_11.xml"/>
+                <xi:include href="chaps/1-Samuel_12.xml"/>
+                <xi:include href="chaps/1-Samuel_13.xml"/>
+                <xi:include href="chaps/1-Samuel_14.xml"/>
+                <xi:include href="chaps/1-Samuel_15.xml"/>
+                <xi:include href="chaps/1-Samuel_16.xml"/>
+                <xi:include href="chaps/1-Samuel_17.xml"/>
+                <xi:include href="chaps/1-Samuel_18.xml"/>
+                <xi:include href="chaps/1-Samuel_19.xml"/>
+                <xi:include href="chaps/1-Samuel_20.xml"/>
+                <xi:include href="chaps/1-Samuel_21.xml"/>
+                <xi:include href="chaps/1-Samuel_22.xml"/>
+                <xi:include href="chaps/1-Samuel_23.xml"/>
+                <xi:include href="chaps/1-Samuel_24.xml"/>
+                <xi:include href="chaps/1-Samuel_25.xml"/>
+                <xi:include href="chaps/1-Samuel_26.xml"/>
+                <xi:include href="chaps/1-Samuel_27.xml"/>
+                <xi:include href="chaps/1-Samuel_28.xml"/>
+                <xi:include href="chaps/1-Samuel_29.xml"/>
+                <xi:include href="chaps/1-Samuel_30.xml"/>
+                <xi:include href="chaps/1-Samuel_31.xml"/>
+            </div>
+            <div type="book" n="10" xml:id="KJV_2SA">
+                <head>2 Samuel</head>
+                <xi:include href="chaps/2-Samuel_01.xml"/>
+                <xi:include href="chaps/2-Samuel_02.xml"/>
+                <xi:include href="chaps/2-Samuel_03.xml"/>
+                <xi:include href="chaps/2-Samuel_04.xml"/>
+                <xi:include href="chaps/2-Samuel_05.xml"/>
+                <xi:include href="chaps/2-Samuel_06.xml"/>
+                <xi:include href="chaps/2-Samuel_07.xml"/>
+                <xi:include href="chaps/2-Samuel_08.xml"/>
+                <xi:include href="chaps/2-Samuel_09.xml"/>
+                <xi:include href="chaps/2-Samuel_10.xml"/>
+                <xi:include href="chaps/2-Samuel_11.xml"/>
+                <xi:include href="chaps/2-Samuel_12.xml"/>
+                <xi:include href="chaps/2-Samuel_13.xml"/>
+                <xi:include href="chaps/2-Samuel_14.xml"/>
+                <xi:include href="chaps/2-Samuel_15.xml"/>
+                <xi:include href="chaps/2-Samuel_16.xml"/>
+                <xi:include href="chaps/2-Samuel_17.xml"/>
+                <xi:include href="chaps/2-Samuel_18.xml"/>
+                <xi:include href="chaps/2-Samuel_19.xml"/>
+                <xi:include href="chaps/2-Samuel_20.xml"/>
+                <xi:include href="chaps/2-Samuel_21.xml"/>
+                <xi:include href="chaps/2-Samuel_22.xml"/>
+                <xi:include href="chaps/2-Samuel_23.xml"/>
+                <xi:include href="chaps/2-Samuel_24.xml"/>
+            </div>
+            <div type="book" n="11" xml:id="KJV_1KI">
+                <head>1 Kings</head>
+                <xi:include href="chaps/1-Kings_01.xml"/>
+                <xi:include href="chaps/1-Kings_02.xml"/>
+                <xi:include href="chaps/1-Kings_03.xml"/>
+                <xi:include href="chaps/1-Kings_04.xml"/>
+                <xi:include href="chaps/1-Kings_05.xml"/>
+                <xi:include href="chaps/1-Kings_06.xml"/>
+                <xi:include href="chaps/1-Kings_07.xml"/>
+                <xi:include href="chaps/1-Kings_08.xml"/>
+                <xi:include href="chaps/1-Kings_09.xml"/>
+                <xi:include href="chaps/1-Kings_10.xml"/>
+                <xi:include href="chaps/1-Kings_11.xml"/>
+                <xi:include href="chaps/1-Kings_12.xml"/>
+                <xi:include href="chaps/1-Kings_13.xml"/>
+                <xi:include href="chaps/1-Kings_14.xml"/>
+                <xi:include href="chaps/1-Kings_15.xml"/>
+                <xi:include href="chaps/1-Kings_16.xml"/>
+                <xi:include href="chaps/1-Kings_17.xml"/>
+                <xi:include href="chaps/1-Kings_18.xml"/>
+                <xi:include href="chaps/1-Kings_19.xml"/>
+                <xi:include href="chaps/1-Kings_20.xml"/>
+                <xi:include href="chaps/1-Kings_21.xml"/>
+                <xi:include href="chaps/1-Kings_22.xml"/>
+            </div>
+            <div type="book" n="12" xml:id="KJV_2KI">
+                <head>2 Kings</head>
+                <xi:include href="chaps/2-Kings_01.xml"/>
+                <xi:include href="chaps/2-Kings_02.xml"/>
+                <xi:include href="chaps/2-Kings_03.xml"/>
+                <xi:include href="chaps/2-Kings_04.xml"/>
+                <xi:include href="chaps/2-Kings_05.xml"/>
+                <xi:include href="chaps/2-Kings_06.xml"/>
+                <xi:include href="chaps/2-Kings_07.xml"/>
+                <xi:include href="chaps/2-Kings_08.xml"/>
+                <xi:include href="chaps/2-Kings_09.xml"/>
+                <xi:include href="chaps/2-Kings_10.xml"/>
+                <xi:include href="chaps/2-Kings_11.xml"/>
+                <xi:include href="chaps/2-Kings_12.xml"/>
+                <xi:include href="chaps/2-Kings_13.xml"/>
+                <xi:include href="chaps/2-Kings_14.xml"/>
+                <xi:include href="chaps/2-Kings_15.xml"/>
+                <xi:include href="chaps/2-Kings_16.xml"/>
+                <xi:include href="chaps/2-Kings_17.xml"/>
+                <xi:include href="chaps/2-Kings_18.xml"/>
+                <xi:include href="chaps/2-Kings_19.xml"/>
+                <xi:include href="chaps/2-Kings_20.xml"/>
+                <xi:include href="chaps/2-Kings_21.xml"/>
+                <xi:include href="chaps/2-Kings_22.xml"/>
+                <xi:include href="chaps/2-Kings_23.xml"/>
+                <xi:include href="chaps/2-Kings_24.xml"/>
+                <xi:include href="chaps/2-Kings_25.xml"/>
+            </div>
+            <div type="book" n="13" xml:id="KJV_1CH">
+                <head>1 Chronicles</head>
+                <xi:include href="chaps/1-Chronicles_01.xml"/>
+                <xi:include href="chaps/1-Chronicles_02.xml"/>
+                <xi:include href="chaps/1-Chronicles_03.xml"/>
+                <xi:include href="chaps/1-Chronicles_04.xml"/>
+                <xi:include href="chaps/1-Chronicles_05.xml"/>
+                <xi:include href="chaps/1-Chronicles_06.xml"/>
+                <xi:include href="chaps/1-Chronicles_07.xml"/>
+                <xi:include href="chaps/1-Chronicles_08.xml"/>
+                <xi:include href="chaps/1-Chronicles_09.xml"/>
+                <xi:include href="chaps/1-Chronicles_10.xml"/>
+                <xi:include href="chaps/1-Chronicles_11.xml"/>
+                <xi:include href="chaps/1-Chronicles_12.xml"/>
+                <xi:include href="chaps/1-Chronicles_13.xml"/>
+                <xi:include href="chaps/1-Chronicles_14.xml"/>
+                <xi:include href="chaps/1-Chronicles_15.xml"/>
+                <xi:include href="chaps/1-Chronicles_16.xml"/>
+                <xi:include href="chaps/1-Chronicles_17.xml"/>
+                <xi:include href="chaps/1-Chronicles_18.xml"/>
+                <xi:include href="chaps/1-Chronicles_19.xml"/>
+                <xi:include href="chaps/1-Chronicles_20.xml"/>
+                <xi:include href="chaps/1-Chronicles_21.xml"/>
+                <xi:include href="chaps/1-Chronicles_22.xml"/>
+                <xi:include href="chaps/1-Chronicles_23.xml"/>
+                <xi:include href="chaps/1-Chronicles_24.xml"/>
+                <xi:include href="chaps/1-Chronicles_25.xml"/>
+                <xi:include href="chaps/1-Chronicles_26.xml"/>
+                <xi:include href="chaps/1-Chronicles_27.xml"/>
+                <xi:include href="chaps/1-Chronicles_28.xml"/>
+                <xi:include href="chaps/1-Chronicles_29.xml"/>
+            </div>
+            <div type="book" n="14" xml:id="KJV_2CH">
+                <head>2 Chronicles</head>
+                <xi:include href="chaps/2-Chronicles_01.xml"/>
+                <xi:include href="chaps/2-Chronicles_02.xml"/>
+                <xi:include href="chaps/2-Chronicles_03.xml"/>
+                <xi:include href="chaps/2-Chronicles_04.xml"/>
+                <xi:include href="chaps/2-Chronicles_05.xml"/>
+                <xi:include href="chaps/2-Chronicles_06.xml"/>
+                <xi:include href="chaps/2-Chronicles_07.xml"/>
+                <xi:include href="chaps/2-Chronicles_08.xml"/>
+                <xi:include href="chaps/2-Chronicles_09.xml"/>
+                <xi:include href="chaps/2-Chronicles_10.xml"/>
+                <xi:include href="chaps/2-Chronicles_11.xml"/>
+                <xi:include href="chaps/2-Chronicles_12.xml"/>
+                <xi:include href="chaps/2-Chronicles_13.xml"/>
+                <xi:include href="chaps/2-Chronicles_14.xml"/>
+                <xi:include href="chaps/2-Chronicles_15.xml"/>
+                <xi:include href="chaps/2-Chronicles_16.xml"/>
+                <xi:include href="chaps/2-Chronicles_17.xml"/>
+                <xi:include href="chaps/2-Chronicles_18.xml"/>
+                <xi:include href="chaps/2-Chronicles_19.xml"/>
+                <xi:include href="chaps/2-Chronicles_20.xml"/>
+                <xi:include href="chaps/2-Chronicles_21.xml"/>
+                <xi:include href="chaps/2-Chronicles_22.xml"/>
+                <xi:include href="chaps/2-Chronicles_23.xml"/>
+                <xi:include href="chaps/2-Chronicles_24.xml"/>
+                <xi:include href="chaps/2-Chronicles_25.xml"/>
+                <xi:include href="chaps/2-Chronicles_26.xml"/>
+                <xi:include href="chaps/2-Chronicles_27.xml"/>
+                <xi:include href="chaps/2-Chronicles_28.xml"/>
+                <xi:include href="chaps/2-Chronicles_29.xml"/>
+                <xi:include href="chaps/2-Chronicles_30.xml"/>
+                <xi:include href="chaps/2-Chronicles_31.xml"/>
+                <xi:include href="chaps/2-Chronicles_32.xml"/>
+                <xi:include href="chaps/2-Chronicles_33.xml"/>
+                <xi:include href="chaps/2-Chronicles_34.xml"/>
+                <xi:include href="chaps/2-Chronicles_35.xml"/>
+                <xi:include href="chaps/2-Chronicles_36.xml"/>
+            </div>
+            <div type="book" n="15" xml:id="KJV_EZR">
+                <head>Ezra</head>
+                <xi:include href="chaps/Ezra_01.xml"/>
+                <xi:include href="chaps/Ezra_02.xml"/>
+                <xi:include href="chaps/Ezra_03.xml"/>
+                <xi:include href="chaps/Ezra_04.xml"/>
+                <xi:include href="chaps/Ezra_05.xml"/>
+                <xi:include href="chaps/Ezra_06.xml"/>
+                <xi:include href="chaps/Ezra_07.xml"/>
+                <xi:include href="chaps/Ezra_08.xml"/>
+                <xi:include href="chaps/Ezra_09.xml"/>
+                <xi:include href="chaps/Ezra_10.xml"/>
+            </div>
+            <div type="book" n="16" xml:id="KJV_NEH">
+                <head>Nehemiah</head>
+                <xi:include href="chaps/Nehemiah_01.xml"/>
+                <xi:include href="chaps/Nehemiah_02.xml"/>
+                <xi:include href="chaps/Nehemiah_03.xml"/>
+                <xi:include href="chaps/Nehemiah_04.xml"/>
+                <xi:include href="chaps/Nehemiah_05.xml"/>
+                <xi:include href="chaps/Nehemiah_06.xml"/>
+                <xi:include href="chaps/Nehemiah_07.xml"/>
+                <xi:include href="chaps/Nehemiah_08.xml"/>
+                <xi:include href="chaps/Nehemiah_09.xml"/>
+                <xi:include href="chaps/Nehemiah_10.xml"/>
+                <xi:include href="chaps/Nehemiah_11.xml"/>
+                <xi:include href="chaps/Nehemiah_12.xml"/>
+                <xi:include href="chaps/Nehemiah_13.xml"/>
+            </div>
+            <div type="book" n="17" xml:id="KJV_EST">
+                <head>Esther</head>
+                <xi:include href="chaps/Esther_01.xml"/>
+                <xi:include href="chaps/Esther_02.xml"/>
+                <xi:include href="chaps/Esther_03.xml"/>
+                <xi:include href="chaps/Esther_04.xml"/>
+                <xi:include href="chaps/Esther_05.xml"/>
+                <xi:include href="chaps/Esther_06.xml"/>
+                <xi:include href="chaps/Esther_07.xml"/>
+                <xi:include href="chaps/Esther_08.xml"/>
+                <xi:include href="chaps/Esther_09.xml"/>
+                <xi:include href="chaps/Esther_10.xml"/>
+            </div>
+            <div type="book" n="18" xml:id="KJV_JOB">
+                <head>Job</head>
+                <xi:include href="chaps/Job_01.xml"/>
+                <xi:include href="chaps/Job_02.xml"/>
+                <xi:include href="chaps/Job_03.xml"/>
+                <xi:include href="chaps/Job_04.xml"/>
+                <xi:include href="chaps/Job_05.xml"/>
+                <xi:include href="chaps/Job_06.xml"/>
+                <xi:include href="chaps/Job_07.xml"/>
+                <xi:include href="chaps/Job_08.xml"/>
+                <xi:include href="chaps/Job_09.xml"/>
+                <xi:include href="chaps/Job_10.xml"/>
+                <xi:include href="chaps/Job_11.xml"/>
+                <xi:include href="chaps/Job_12.xml"/>
+                <xi:include href="chaps/Job_13.xml"/>
+                <xi:include href="chaps/Job_14.xml"/>
+                <xi:include href="chaps/Job_15.xml"/>
+                <xi:include href="chaps/Job_16.xml"/>
+                <xi:include href="chaps/Job_17.xml"/>
+                <xi:include href="chaps/Job_18.xml"/>
+                <xi:include href="chaps/Job_19.xml"/>
+                <xi:include href="chaps/Job_20.xml"/>
+                <xi:include href="chaps/Job_21.xml"/>
+                <xi:include href="chaps/Job_22.xml"/>
+                <xi:include href="chaps/Job_23.xml"/>
+                <xi:include href="chaps/Job_24.xml"/>
+                <xi:include href="chaps/Job_25.xml"/>
+                <xi:include href="chaps/Job_26.xml"/>
+                <xi:include href="chaps/Job_27.xml"/>
+                <xi:include href="chaps/Job_28.xml"/>
+                <xi:include href="chaps/Job_29.xml"/>
+                <xi:include href="chaps/Job_30.xml"/>
+                <xi:include href="chaps/Job_31.xml"/>
+                <xi:include href="chaps/Job_32.xml"/>
+                <xi:include href="chaps/Job_33.xml"/>
+                <xi:include href="chaps/Job_34.xml"/>
+                <xi:include href="chaps/Job_35.xml"/>
+                <xi:include href="chaps/Job_36.xml"/>
+                <xi:include href="chaps/Job_37.xml"/>
+                <xi:include href="chaps/Job_38.xml"/>
+                <xi:include href="chaps/Job_39.xml"/>
+                <xi:include href="chaps/Job_40.xml"/>
+                <xi:include href="chaps/Job_41.xml"/>
+                <xi:include href="chaps/Job_42.xml"/>
+            </div>
+            <div type="book" n="19" xml:id="KJV_PSA">
+                <head>Psalms</head>
+                <xi:include href="chaps/Psalms_01.xml"/>
+                <xi:include href="chaps/Psalms_02.xml"/>
+                <xi:include href="chaps/Psalms_03.xml"/>
+                <xi:include href="chaps/Psalms_04.xml"/>
+                <xi:include href="chaps/Psalms_05.xml"/>
+                <xi:include href="chaps/Psalms_06.xml"/>
+                <xi:include href="chaps/Psalms_07.xml"/>
+                <xi:include href="chaps/Psalms_08.xml"/>
+                <xi:include href="chaps/Psalms_09.xml"/>
+                <xi:include href="chaps/Psalms_10.xml"/>
+                <xi:include href="chaps/Psalms_11.xml"/>
+                <xi:include href="chaps/Psalms_12.xml"/>
+                <xi:include href="chaps/Psalms_13.xml"/>
+                <xi:include href="chaps/Psalms_14.xml"/>
+                <xi:include href="chaps/Psalms_15.xml"/>
+                <xi:include href="chaps/Psalms_16.xml"/>
+                <xi:include href="chaps/Psalms_17.xml"/>
+                <xi:include href="chaps/Psalms_18.xml"/>
+                <xi:include href="chaps/Psalms_19.xml"/>
+                <xi:include href="chaps/Psalms_20.xml"/>
+                <xi:include href="chaps/Psalms_21.xml"/>
+                <xi:include href="chaps/Psalms_22.xml"/>
+                <xi:include href="chaps/Psalms_23.xml"/>
+                <xi:include href="chaps/Psalms_24.xml"/>
+                <xi:include href="chaps/Psalms_25.xml"/>
+                <xi:include href="chaps/Psalms_26.xml"/>
+                <xi:include href="chaps/Psalms_27.xml"/>
+                <xi:include href="chaps/Psalms_28.xml"/>
+                <xi:include href="chaps/Psalms_29.xml"/>
+                <xi:include href="chaps/Psalms_30.xml"/>
+                <xi:include href="chaps/Psalms_31.xml"/>
+                <xi:include href="chaps/Psalms_32.xml"/>
+                <xi:include href="chaps/Psalms_33.xml"/>
+                <xi:include href="chaps/Psalms_34.xml"/>
+                <xi:include href="chaps/Psalms_35.xml"/>
+                <xi:include href="chaps/Psalms_36.xml"/>
+                <xi:include href="chaps/Psalms_37.xml"/>
+                <xi:include href="chaps/Psalms_38.xml"/>
+                <xi:include href="chaps/Psalms_39.xml"/>
+                <xi:include href="chaps/Psalms_40.xml"/>
+                <xi:include href="chaps/Psalms_41.xml"/>
+                <xi:include href="chaps/Psalms_42.xml"/>
+                <xi:include href="chaps/Psalms_43.xml"/>
+                <xi:include href="chaps/Psalms_44.xml"/>
+                <xi:include href="chaps/Psalms_45.xml"/>
+                <xi:include href="chaps/Psalms_46.xml"/>
+                <xi:include href="chaps/Psalms_47.xml"/>
+                <xi:include href="chaps/Psalms_48.xml"/>
+                <xi:include href="chaps/Psalms_49.xml"/>
+                <xi:include href="chaps/Psalms_50.xml"/>
+                <xi:include href="chaps/Psalms_51.xml"/>
+                <xi:include href="chaps/Psalms_52.xml"/>
+                <xi:include href="chaps/Psalms_53.xml"/>
+                <xi:include href="chaps/Psalms_54.xml"/>
+                <xi:include href="chaps/Psalms_55.xml"/>
+                <xi:include href="chaps/Psalms_56.xml"/>
+                <xi:include href="chaps/Psalms_57.xml"/>
+                <xi:include href="chaps/Psalms_58.xml"/>
+                <xi:include href="chaps/Psalms_59.xml"/>
+                <xi:include href="chaps/Psalms_60.xml"/>
+                <xi:include href="chaps/Psalms_61.xml"/>
+                <xi:include href="chaps/Psalms_62.xml"/>
+                <xi:include href="chaps/Psalms_63.xml"/>
+                <xi:include href="chaps/Psalms_64.xml"/>
+                <xi:include href="chaps/Psalms_65.xml"/>
+                <xi:include href="chaps/Psalms_66.xml"/>
+                <xi:include href="chaps/Psalms_67.xml"/>
+                <xi:include href="chaps/Psalms_68.xml"/>
+                <xi:include href="chaps/Psalms_69.xml"/>
+                <xi:include href="chaps/Psalms_70.xml"/>
+                <xi:include href="chaps/Psalms_71.xml"/>
+                <xi:include href="chaps/Psalms_72.xml"/>
+                <xi:include href="chaps/Psalms_73.xml"/>
+                <xi:include href="chaps/Psalms_74.xml"/>
+                <xi:include href="chaps/Psalms_75.xml"/>
+                <xi:include href="chaps/Psalms_76.xml"/>
+                <xi:include href="chaps/Psalms_77.xml"/>
+                <xi:include href="chaps/Psalms_78.xml"/>
+                <xi:include href="chaps/Psalms_79.xml"/>
+                <xi:include href="chaps/Psalms_80.xml"/>
+                <xi:include href="chaps/Psalms_81.xml"/>
+                <xi:include href="chaps/Psalms_82.xml"/>
+                <xi:include href="chaps/Psalms_83.xml"/>
+                <xi:include href="chaps/Psalms_84.xml"/>
+                <xi:include href="chaps/Psalms_85.xml"/>
+                <xi:include href="chaps/Psalms_86.xml"/>
+                <xi:include href="chaps/Psalms_87.xml"/>
+                <xi:include href="chaps/Psalms_88.xml"/>
+                <xi:include href="chaps/Psalms_89.xml"/>
+                <xi:include href="chaps/Psalms_90.xml"/>
+                <xi:include href="chaps/Psalms_91.xml"/>
+                <xi:include href="chaps/Psalms_92.xml"/>
+                <xi:include href="chaps/Psalms_93.xml"/>
+                <xi:include href="chaps/Psalms_94.xml"/>
+                <xi:include href="chaps/Psalms_95.xml"/>
+                <xi:include href="chaps/Psalms_96.xml"/>
+                <xi:include href="chaps/Psalms_97.xml"/>
+                <xi:include href="chaps/Psalms_98.xml"/>
+                <xi:include href="chaps/Psalms_99.xml"/>
+                <xi:include href="chaps/Psalms_100.xml"/>
+                <xi:include href="chaps/Psalms_101.xml"/>
+                <xi:include href="chaps/Psalms_102.xml"/>
+                <xi:include href="chaps/Psalms_103.xml"/>
+                <xi:include href="chaps/Psalms_104.xml"/>
+                <xi:include href="chaps/Psalms_105.xml"/>
+                <xi:include href="chaps/Psalms_106.xml"/>
+                <xi:include href="chaps/Psalms_107.xml"/>
+                <xi:include href="chaps/Psalms_108.xml"/>
+                <xi:include href="chaps/Psalms_109.xml"/>
+                <xi:include href="chaps/Psalms_110.xml"/>
+                <xi:include href="chaps/Psalms_111.xml"/>
+                <xi:include href="chaps/Psalms_112.xml"/>
+                <xi:include href="chaps/Psalms_113.xml"/>
+                <xi:include href="chaps/Psalms_114.xml"/>
+                <xi:include href="chaps/Psalms_115.xml"/>
+                <xi:include href="chaps/Psalms_116.xml"/>
+                <xi:include href="chaps/Psalms_117.xml"/>
+                <xi:include href="chaps/Psalms_118.xml"/>
+                <xi:include href="chaps/Psalms_119.xml"/>
+                <xi:include href="chaps/Psalms_120.xml"/>
+                <xi:include href="chaps/Psalms_121.xml"/>
+                <xi:include href="chaps/Psalms_122.xml"/>
+                <xi:include href="chaps/Psalms_123.xml"/>
+                <xi:include href="chaps/Psalms_124.xml"/>
+                <xi:include href="chaps/Psalms_125.xml"/>
+                <xi:include href="chaps/Psalms_126.xml"/>
+                <xi:include href="chaps/Psalms_127.xml"/>
+                <xi:include href="chaps/Psalms_128.xml"/>
+                <xi:include href="chaps/Psalms_129.xml"/>
+                <xi:include href="chaps/Psalms_130.xml"/>
+                <xi:include href="chaps/Psalms_131.xml"/>
+                <xi:include href="chaps/Psalms_132.xml"/>
+                <xi:include href="chaps/Psalms_133.xml"/>
+                <xi:include href="chaps/Psalms_134.xml"/>
+                <xi:include href="chaps/Psalms_135.xml"/>
+                <xi:include href="chaps/Psalms_136.xml"/>
+                <xi:include href="chaps/Psalms_137.xml"/>
+                <xi:include href="chaps/Psalms_138.xml"/>
+                <xi:include href="chaps/Psalms_139.xml"/>
+                <xi:include href="chaps/Psalms_140.xml"/>
+                <xi:include href="chaps/Psalms_141.xml"/>
+                <xi:include href="chaps/Psalms_142.xml"/>
+                <xi:include href="chaps/Psalms_143.xml"/>
+                <xi:include href="chaps/Psalms_144.xml"/>
+                <xi:include href="chaps/Psalms_145.xml"/>
+                <xi:include href="chaps/Psalms_146.xml"/>
+                <xi:include href="chaps/Psalms_147.xml"/>
+                <xi:include href="chaps/Psalms_148.xml"/>
+                <xi:include href="chaps/Psalms_149.xml"/>
+                <xi:include href="chaps/Psalms_150.xml"/>
+            </div>
+            <div type="book" n="20" xml:id="KJV_PRO">
+                <head>Proverbs</head>
+                <xi:include href="chaps/Proverbs_01.xml"/>
+                <xi:include href="chaps/Proverbs_02.xml"/>
+                <xi:include href="chaps/Proverbs_03.xml"/>
+                <xi:include href="chaps/Proverbs_04.xml"/>
+                <xi:include href="chaps/Proverbs_05.xml"/>
+                <xi:include href="chaps/Proverbs_06.xml"/>
+                <xi:include href="chaps/Proverbs_07.xml"/>
+                <xi:include href="chaps/Proverbs_08.xml"/>
+                <xi:include href="chaps/Proverbs_09.xml"/>
+                <xi:include href="chaps/Proverbs_10.xml"/>
+                <xi:include href="chaps/Proverbs_11.xml"/>
+                <xi:include href="chaps/Proverbs_12.xml"/>
+                <xi:include href="chaps/Proverbs_13.xml"/>
+                <xi:include href="chaps/Proverbs_14.xml"/>
+                <xi:include href="chaps/Proverbs_15.xml"/>
+                <xi:include href="chaps/Proverbs_16.xml"/>
+                <xi:include href="chaps/Proverbs_17.xml"/>
+                <xi:include href="chaps/Proverbs_18.xml"/>
+                <xi:include href="chaps/Proverbs_19.xml"/>
+                <xi:include href="chaps/Proverbs_20.xml"/>
+                <xi:include href="chaps/Proverbs_21.xml"/>
+                <xi:include href="chaps/Proverbs_22.xml"/>
+                <xi:include href="chaps/Proverbs_23.xml"/>
+                <xi:include href="chaps/Proverbs_24.xml"/>
+                <xi:include href="chaps/Proverbs_25.xml"/>
+                <xi:include href="chaps/Proverbs_26.xml"/>
+                <xi:include href="chaps/Proverbs_27.xml"/>
+                <xi:include href="chaps/Proverbs_28.xml"/>
+                <xi:include href="chaps/Proverbs_29.xml"/>
+                <xi:include href="chaps/Proverbs_30.xml"/>
+                <xi:include href="chaps/Proverbs_31.xml"/>
+            </div>
+            <div type="book" n="21" xml:id="KJV_ECC">
+                <head>Ecclesiastes</head>
+                <xi:include href="chaps/Ecclesiastes_01.xml"/>
+                <xi:include href="chaps/Ecclesiastes_02.xml"/>
+                <xi:include href="chaps/Ecclesiastes_03.xml"/>
+                <xi:include href="chaps/Ecclesiastes_04.xml"/>
+                <xi:include href="chaps/Ecclesiastes_05.xml"/>
+                <xi:include href="chaps/Ecclesiastes_06.xml"/>
+                <xi:include href="chaps/Ecclesiastes_07.xml"/>
+                <xi:include href="chaps/Ecclesiastes_08.xml"/>
+                <xi:include href="chaps/Ecclesiastes_09.xml"/>
+                <xi:include href="chaps/Ecclesiastes_10.xml"/>
+                <xi:include href="chaps/Ecclesiastes_11.xml"/>
+                <xi:include href="chaps/Ecclesiastes_12.xml"/>
+            </div>
+            <div type="book" n="22" xml:id="KJV_SON">
+                <head>Song of Solomon</head>
+                <xi:include href="chaps/Song-of-Solomon_01.xml"/>
+                <xi:include href="chaps/Song-of-Solomon_02.xml"/>
+                <xi:include href="chaps/Song-of-Solomon_03.xml"/>
+                <xi:include href="chaps/Song-of-Solomon_04.xml"/>
+                <xi:include href="chaps/Song-of-Solomon_05.xml"/>
+                <xi:include href="chaps/Song-of-Solomon_06.xml"/>
+                <xi:include href="chaps/Song-of-Solomon_07.xml"/>
+                <xi:include href="chaps/Song-of-Solomon_08.xml"/>
+            </div>
+            <div type="book" n="23" xml:id="KJV_ISA">
+                <head>Isaiah</head>
+                <xi:include href="chaps/Isaiah_01.xml"/>
+                <xi:include href="chaps/Isaiah_02.xml"/>
+                <xi:include href="chaps/Isaiah_03.xml"/>
+                <xi:include href="chaps/Isaiah_04.xml"/>
+                <xi:include href="chaps/Isaiah_05.xml"/>
+                <xi:include href="chaps/Isaiah_06.xml"/>
+                <xi:include href="chaps/Isaiah_07.xml"/>
+                <xi:include href="chaps/Isaiah_08.xml"/>
+                <xi:include href="chaps/Isaiah_09.xml"/>
+                <xi:include href="chaps/Isaiah_10.xml"/>
+                <xi:include href="chaps/Isaiah_11.xml"/>
+                <xi:include href="chaps/Isaiah_12.xml"/>
+                <xi:include href="chaps/Isaiah_13.xml"/>
+                <xi:include href="chaps/Isaiah_14.xml"/>
+                <xi:include href="chaps/Isaiah_15.xml"/>
+                <xi:include href="chaps/Isaiah_16.xml"/>
+                <xi:include href="chaps/Isaiah_17.xml"/>
+                <xi:include href="chaps/Isaiah_18.xml"/>
+                <xi:include href="chaps/Isaiah_19.xml"/>
+                <xi:include href="chaps/Isaiah_20.xml"/>
+                <xi:include href="chaps/Isaiah_21.xml"/>
+                <xi:include href="chaps/Isaiah_22.xml"/>
+                <xi:include href="chaps/Isaiah_23.xml"/>
+                <xi:include href="chaps/Isaiah_24.xml"/>
+                <xi:include href="chaps/Isaiah_25.xml"/>
+                <xi:include href="chaps/Isaiah_26.xml"/>
+                <xi:include href="chaps/Isaiah_27.xml"/>
+                <xi:include href="chaps/Isaiah_28.xml"/>
+                <xi:include href="chaps/Isaiah_29.xml"/>
+                <xi:include href="chaps/Isaiah_30.xml"/>
+                <xi:include href="chaps/Isaiah_31.xml"/>
+                <xi:include href="chaps/Isaiah_32.xml"/>
+                <xi:include href="chaps/Isaiah_33.xml"/>
+                <xi:include href="chaps/Isaiah_34.xml"/>
+                <xi:include href="chaps/Isaiah_35.xml"/>
+                <xi:include href="chaps/Isaiah_36.xml"/>
+                <xi:include href="chaps/Isaiah_37.xml"/>
+                <xi:include href="chaps/Isaiah_38.xml"/>
+                <xi:include href="chaps/Isaiah_39.xml"/>
+                <xi:include href="chaps/Isaiah_40.xml"/>
+                <xi:include href="chaps/Isaiah_41.xml"/>
+                <xi:include href="chaps/Isaiah_42.xml"/>
+                <xi:include href="chaps/Isaiah_43.xml"/>
+                <xi:include href="chaps/Isaiah_44.xml"/>
+                <xi:include href="chaps/Isaiah_45.xml"/>
+                <xi:include href="chaps/Isaiah_46.xml"/>
+                <xi:include href="chaps/Isaiah_47.xml"/>
+                <xi:include href="chaps/Isaiah_48.xml"/>
+                <xi:include href="chaps/Isaiah_49.xml"/>
+                <xi:include href="chaps/Isaiah_50.xml"/>
+                <xi:include href="chaps/Isaiah_51.xml"/>
+                <xi:include href="chaps/Isaiah_52.xml"/>
+                <xi:include href="chaps/Isaiah_53.xml"/>
+                <xi:include href="chaps/Isaiah_54.xml"/>
+                <xi:include href="chaps/Isaiah_55.xml"/>
+                <xi:include href="chaps/Isaiah_56.xml"/>
+                <xi:include href="chaps/Isaiah_57.xml"/>
+                <xi:include href="chaps/Isaiah_58.xml"/>
+                <xi:include href="chaps/Isaiah_59.xml"/>
+                <xi:include href="chaps/Isaiah_60.xml"/>
+                <xi:include href="chaps/Isaiah_61.xml"/>
+                <xi:include href="chaps/Isaiah_62.xml"/>
+                <xi:include href="chaps/Isaiah_63.xml"/>
+                <xi:include href="chaps/Isaiah_64.xml"/>
+                <xi:include href="chaps/Isaiah_65.xml"/>
+                <xi:include href="chaps/Isaiah_66.xml"/>
+            </div>
+            <div type="book" n="24" xml:id="KJV_JER">
+                <head>Jeremiah</head>
+                <xi:include href="chaps/Jeremiah_01.xml"/>
+                <xi:include href="chaps/Jeremiah_02.xml"/>
+                <xi:include href="chaps/Jeremiah_03.xml"/>
+                <xi:include href="chaps/Jeremiah_04.xml"/>
+                <xi:include href="chaps/Jeremiah_05.xml"/>
+                <xi:include href="chaps/Jeremiah_06.xml"/>
+                <xi:include href="chaps/Jeremiah_07.xml"/>
+                <xi:include href="chaps/Jeremiah_08.xml"/>
+                <xi:include href="chaps/Jeremiah_09.xml"/>
+                <xi:include href="chaps/Jeremiah_10.xml"/>
+                <xi:include href="chaps/Jeremiah_11.xml"/>
+                <xi:include href="chaps/Jeremiah_12.xml"/>
+                <xi:include href="chaps/Jeremiah_13.xml"/>
+                <xi:include href="chaps/Jeremiah_14.xml"/>
+                <xi:include href="chaps/Jeremiah_15.xml"/>
+                <xi:include href="chaps/Jeremiah_16.xml"/>
+                <xi:include href="chaps/Jeremiah_17.xml"/>
+                <xi:include href="chaps/Jeremiah_18.xml"/>
+                <xi:include href="chaps/Jeremiah_19.xml"/>
+                <xi:include href="chaps/Jeremiah_20.xml"/>
+                <xi:include href="chaps/Jeremiah_21.xml"/>
+                <xi:include href="chaps/Jeremiah_22.xml"/>
+                <xi:include href="chaps/Jeremiah_23.xml"/>
+                <xi:include href="chaps/Jeremiah_24.xml"/>
+                <xi:include href="chaps/Jeremiah_25.xml"/>
+                <xi:include href="chaps/Jeremiah_26.xml"/>
+                <xi:include href="chaps/Jeremiah_27.xml"/>
+                <xi:include href="chaps/Jeremiah_28.xml"/>
+                <xi:include href="chaps/Jeremiah_29.xml"/>
+                <xi:include href="chaps/Jeremiah_30.xml"/>
+                <xi:include href="chaps/Jeremiah_31.xml"/>
+                <xi:include href="chaps/Jeremiah_32.xml"/>
+                <xi:include href="chaps/Jeremiah_33.xml"/>
+                <xi:include href="chaps/Jeremiah_34.xml"/>
+                <xi:include href="chaps/Jeremiah_35.xml"/>
+                <xi:include href="chaps/Jeremiah_36.xml"/>
+                <xi:include href="chaps/Jeremiah_37.xml"/>
+                <xi:include href="chaps/Jeremiah_38.xml"/>
+                <xi:include href="chaps/Jeremiah_39.xml"/>
+                <xi:include href="chaps/Jeremiah_40.xml"/>
+                <xi:include href="chaps/Jeremiah_41.xml"/>
+                <xi:include href="chaps/Jeremiah_42.xml"/>
+                <xi:include href="chaps/Jeremiah_43.xml"/>
+                <xi:include href="chaps/Jeremiah_44.xml"/>
+                <xi:include href="chaps/Jeremiah_45.xml"/>
+                <xi:include href="chaps/Jeremiah_46.xml"/>
+                <xi:include href="chaps/Jeremiah_47.xml"/>
+                <xi:include href="chaps/Jeremiah_48.xml"/>
+                <xi:include href="chaps/Jeremiah_49.xml"/>
+                <xi:include href="chaps/Jeremiah_50.xml"/>
+                <xi:include href="chaps/Jeremiah_51.xml"/>
+                <xi:include href="chaps/Jeremiah_52.xml"/>
+            </div>
+            <div type="book" n="25" xml:id="KJV_LAM">
+                <head>Lamentations</head>
+                <xi:include href="chaps/Lamentations_01.xml"/>
+                <xi:include href="chaps/Lamentations_02.xml"/>
+                <xi:include href="chaps/Lamentations_03.xml"/>
+                <xi:include href="chaps/Lamentations_04.xml"/>
+                <xi:include href="chaps/Lamentations_05.xml"/>
+            </div>
+            <div type="book" n="26" xml:id="KJV_EZE">
+                <head>Ezekiel</head>
+                <xi:include href="chaps/Ezekiel_01.xml"/>
+                <xi:include href="chaps/Ezekiel_02.xml"/>
+                <xi:include href="chaps/Ezekiel_03.xml"/>
+                <xi:include href="chaps/Ezekiel_04.xml"/>
+                <xi:include href="chaps/Ezekiel_05.xml"/>
+                <xi:include href="chaps/Ezekiel_06.xml"/>
+                <xi:include href="chaps/Ezekiel_07.xml"/>
+                <xi:include href="chaps/Ezekiel_08.xml"/>
+                <xi:include href="chaps/Ezekiel_09.xml"/>
+                <xi:include href="chaps/Ezekiel_10.xml"/>
+                <xi:include href="chaps/Ezekiel_11.xml"/>
+                <xi:include href="chaps/Ezekiel_12.xml"/>
+                <xi:include href="chaps/Ezekiel_13.xml"/>
+                <xi:include href="chaps/Ezekiel_14.xml"/>
+                <xi:include href="chaps/Ezekiel_15.xml"/>
+                <xi:include href="chaps/Ezekiel_16.xml"/>
+                <xi:include href="chaps/Ezekiel_17.xml"/>
+                <xi:include href="chaps/Ezekiel_18.xml"/>
+                <xi:include href="chaps/Ezekiel_19.xml"/>
+                <xi:include href="chaps/Ezekiel_20.xml"/>
+                <xi:include href="chaps/Ezekiel_21.xml"/>
+                <xi:include href="chaps/Ezekiel_22.xml"/>
+                <xi:include href="chaps/Ezekiel_23.xml"/>
+                <xi:include href="chaps/Ezekiel_24.xml"/>
+                <xi:include href="chaps/Ezekiel_25.xml"/>
+                <xi:include href="chaps/Ezekiel_26.xml"/>
+                <xi:include href="chaps/Ezekiel_27.xml"/>
+                <xi:include href="chaps/Ezekiel_28.xml"/>
+                <xi:include href="chaps/Ezekiel_29.xml"/>
+                <xi:include href="chaps/Ezekiel_30.xml"/>
+                <xi:include href="chaps/Ezekiel_31.xml"/>
+                <xi:include href="chaps/Ezekiel_32.xml"/>
+                <xi:include href="chaps/Ezekiel_33.xml"/>
+                <xi:include href="chaps/Ezekiel_34.xml"/>
+                <xi:include href="chaps/Ezekiel_35.xml"/>
+                <xi:include href="chaps/Ezekiel_36.xml"/>
+                <xi:include href="chaps/Ezekiel_37.xml"/>
+                <xi:include href="chaps/Ezekiel_38.xml"/>
+                <xi:include href="chaps/Ezekiel_39.xml"/>
+                <xi:include href="chaps/Ezekiel_40.xml"/>
+                <xi:include href="chaps/Ezekiel_41.xml"/>
+                <xi:include href="chaps/Ezekiel_42.xml"/>
+                <xi:include href="chaps/Ezekiel_43.xml"/>
+                <xi:include href="chaps/Ezekiel_44.xml"/>
+                <xi:include href="chaps/Ezekiel_45.xml"/>
+                <xi:include href="chaps/Ezekiel_46.xml"/>
+                <xi:include href="chaps/Ezekiel_47.xml"/>
+                <xi:include href="chaps/Ezekiel_48.xml"/>
+            </div>
+            <div type="book" n="27" xml:id="KJV_DAN">
+                <head>Daniel</head>
+                <xi:include href="chaps/Daniel_01.xml"/>
+                <xi:include href="chaps/Daniel_02.xml"/>
+                <xi:include href="chaps/Daniel_03.xml"/>
+                <xi:include href="chaps/Daniel_04.xml"/>
+                <xi:include href="chaps/Daniel_05.xml"/>
+                <xi:include href="chaps/Daniel_06.xml"/>
+                <xi:include href="chaps/Daniel_07.xml"/>
+                <xi:include href="chaps/Daniel_08.xml"/>
+                <xi:include href="chaps/Daniel_09.xml"/>
+                <xi:include href="chaps/Daniel_10.xml"/>
+                <xi:include href="chaps/Daniel_11.xml"/>
+                <xi:include href="chaps/Daniel_12.xml"/>
+            </div>
+            <div type="book" n="28" xml:id="KJV_HOS">
+                <head>Hosea</head>
+                <xi:include href="chaps/Hosea_01.xml"/>
+                <xi:include href="chaps/Hosea_02.xml"/>
+                <xi:include href="chaps/Hosea_03.xml"/>
+                <xi:include href="chaps/Hosea_04.xml"/>
+                <xi:include href="chaps/Hosea_05.xml"/>
+                <xi:include href="chaps/Hosea_06.xml"/>
+                <xi:include href="chaps/Hosea_07.xml"/>
+                <xi:include href="chaps/Hosea_08.xml"/>
+                <xi:include href="chaps/Hosea_09.xml"/>
+                <xi:include href="chaps/Hosea_10.xml"/>
+                <xi:include href="chaps/Hosea_11.xml"/>
+                <xi:include href="chaps/Hosea_12.xml"/>
+                <xi:include href="chaps/Hosea_13.xml"/>
+                <xi:include href="chaps/Hosea_14.xml"/>
+            </div>
+            <div type="book" n="29" xml:id="KJV_JOE">
+                <head>Joel</head>
+                <xi:include href="chaps/Joel_01.xml"/>
+                <xi:include href="chaps/Joel_02.xml"/>
+                <xi:include href="chaps/Joel_03.xml"/>
+            </div>
+            <div type="book" n="30" xml:id="KJV_AMO">
+                <head>Amos</head>
+                <xi:include href="chaps/Amos_01.xml"/>
+                <xi:include href="chaps/Amos_02.xml"/>
+                <xi:include href="chaps/Amos_03.xml"/>
+                <xi:include href="chaps/Amos_04.xml"/>
+                <xi:include href="chaps/Amos_05.xml"/>
+                <xi:include href="chaps/Amos_06.xml"/>
+                <xi:include href="chaps/Amos_07.xml"/>
+                <xi:include href="chaps/Amos_08.xml"/>
+                <xi:include href="chaps/Amos_09.xml"/>
+            </div>
+            <div type="book" n="31" xml:id="KJV_OBA">
+                <head>Obadiah</head>
+                <xi:include href="chaps/Obadiah_01.xml"/>
+            </div>
+            <div type="book" n="32" xml:id="KJV_JON">
+                <head>Jonah</head>
+                <xi:include href="chaps/Jonah_01.xml"/>
+                <xi:include href="chaps/Jonah_02.xml"/>
+                <xi:include href="chaps/Jonah_03.xml"/>
+                <xi:include href="chaps/Jonah_04.xml"/>
+            </div>
+            <div type="book" n="33" xml:id="KJV_MIC">
+                <head>Micah</head>
+                <xi:include href="chaps/Micah_01.xml"/>
+                <xi:include href="chaps/Micah_02.xml"/>
+                <xi:include href="chaps/Micah_03.xml"/>
+                <xi:include href="chaps/Micah_04.xml"/>
+                <xi:include href="chaps/Micah_05.xml"/>
+                <xi:include href="chaps/Micah_06.xml"/>
+                <xi:include href="chaps/Micah_07.xml"/>
+            </div>
+            <div type="book" n="34" xml:id="KJV_NAH">
+                <head>Nahum</head>
+                <xi:include href="chaps/Nahum_01.xml"/>
+                <xi:include href="chaps/Nahum_02.xml"/>
+                <xi:include href="chaps/Nahum_03.xml"/>
+            </div>
+            <div type="book" n="35" xml:id="KJV_HAB">
+                <head>Habakkuk</head>
+                <xi:include href="chaps/Habakkuk_01.xml"/>
+                <xi:include href="chaps/Habakkuk_02.xml"/>
+                <xi:include href="chaps/Habakkuk_03.xml"/>
+            </div>
+            <div type="book" n="36" xml:id="KJV_ZEP">
+                <head>Zephaniah</head>
+                <xi:include href="chaps/Zephaniah_01.xml"/>
+                <xi:include href="chaps/Zephaniah_02.xml"/>
+                <xi:include href="chaps/Zephaniah_03.xml"/>
+            </div>
+            <div type="book" n="37" xml:id="KJV_HAG">
+                <head>Haggai</head>
+                <xi:include href="chaps/Haggai_01.xml"/>
+                <xi:include href="chaps/Haggai_02.xml"/>
+            </div>
+            <div type="book" n="38" xml:id="KJV_ZEC">
+                <head>Zechariah</head>
+                <xi:include href="chaps/Zechariah_01.xml"/>
+                <xi:include href="chaps/Zechariah_02.xml"/>
+                <xi:include href="chaps/Zechariah_03.xml"/>
+                <xi:include href="chaps/Zechariah_04.xml"/>
+                <xi:include href="chaps/Zechariah_05.xml"/>
+                <xi:include href="chaps/Zechariah_06.xml"/>
+                <xi:include href="chaps/Zechariah_07.xml"/>
+                <xi:include href="chaps/Zechariah_08.xml"/>
+                <xi:include href="chaps/Zechariah_09.xml"/>
+                <xi:include href="chaps/Zechariah_10.xml"/>
+                <xi:include href="chaps/Zechariah_11.xml"/>
+                <xi:include href="chaps/Zechariah_12.xml"/>
+                <xi:include href="chaps/Zechariah_13.xml"/>
+                <xi:include href="chaps/Zechariah_14.xml"/>
+            </div>
+            <div type="book" n="39" xml:id="KJV_MAL">
+                <head>Malachi</head>
+                <xi:include href="chaps/Malachi_01.xml"/>
+                <xi:include href="chaps/Malachi_02.xml"/>
+                <xi:include href="chaps/Malachi_03.xml"/>
+                <xi:include href="chaps/Malachi_04.xml"/>
+            </div>
+            <div type="book" n="40" xml:id="KJV_MAT">
+                <head>Matthew</head>
+                <xi:include href="chaps/Matthew_01.xml"/>
+                <xi:include href="chaps/Matthew_02.xml"/>
+                <xi:include href="chaps/Matthew_03.xml"/>
+                <xi:include href="chaps/Matthew_04.xml"/>
+                <xi:include href="chaps/Matthew_05.xml"/>
+                <xi:include href="chaps/Matthew_06.xml"/>
+                <xi:include href="chaps/Matthew_07.xml"/>
+                <xi:include href="chaps/Matthew_08.xml"/>
+                <xi:include href="chaps/Matthew_09.xml"/>
+                <xi:include href="chaps/Matthew_10.xml"/>
+                <xi:include href="chaps/Matthew_11.xml"/>
+                <xi:include href="chaps/Matthew_12.xml"/>
+                <xi:include href="chaps/Matthew_13.xml"/>
+                <xi:include href="chaps/Matthew_14.xml"/>
+                <xi:include href="chaps/Matthew_15.xml"/>
+                <xi:include href="chaps/Matthew_16.xml"/>
+                <xi:include href="chaps/Matthew_17.xml"/>
+                <xi:include href="chaps/Matthew_18.xml"/>
+                <xi:include href="chaps/Matthew_19.xml"/>
+                <xi:include href="chaps/Matthew_20.xml"/>
+                <xi:include href="chaps/Matthew_21.xml"/>
+                <xi:include href="chaps/Matthew_22.xml"/>
+                <xi:include href="chaps/Matthew_23.xml"/>
+                <xi:include href="chaps/Matthew_24.xml"/>
+                <xi:include href="chaps/Matthew_25.xml"/>
+                <xi:include href="chaps/Matthew_26.xml"/>
+                <xi:include href="chaps/Matthew_27.xml"/>
+                <xi:include href="chaps/Matthew_28.xml"/>
+            </div>
+            <div type="book" n="41" xml:id="KJV_MAR">
+                <head>Mark</head>
+                <xi:include href="chaps/Mark_01.xml"/>
+                <xi:include href="chaps/Mark_02.xml"/>
+                <xi:include href="chaps/Mark_03.xml"/>
+                <xi:include href="chaps/Mark_04.xml"/>
+                <xi:include href="chaps/Mark_05.xml"/>
+                <xi:include href="chaps/Mark_06.xml"/>
+                <xi:include href="chaps/Mark_07.xml"/>
+                <xi:include href="chaps/Mark_08.xml"/>
+                <xi:include href="chaps/Mark_09.xml"/>
+                <xi:include href="chaps/Mark_10.xml"/>
+                <xi:include href="chaps/Mark_11.xml"/>
+                <xi:include href="chaps/Mark_12.xml"/>
+                <xi:include href="chaps/Mark_13.xml"/>
+                <xi:include href="chaps/Mark_14.xml"/>
+                <xi:include href="chaps/Mark_15.xml"/>
+                <xi:include href="chaps/Mark_16.xml"/>
+            </div>
+            <div type="book" n="42" xml:id="KJV_LUK">
+                <head>Luke</head>
+                <xi:include href="chaps/Luke_01.xml"/>
+                <xi:include href="chaps/Luke_02.xml"/>
+                <xi:include href="chaps/Luke_03.xml"/>
+                <xi:include href="chaps/Luke_04.xml"/>
+                <xi:include href="chaps/Luke_05.xml"/>
+                <xi:include href="chaps/Luke_06.xml"/>
+                <xi:include href="chaps/Luke_07.xml"/>
+                <xi:include href="chaps/Luke_08.xml"/>
+                <xi:include href="chaps/Luke_09.xml"/>
+                <xi:include href="chaps/Luke_10.xml"/>
+                <xi:include href="chaps/Luke_11.xml"/>
+                <xi:include href="chaps/Luke_12.xml"/>
+                <xi:include href="chaps/Luke_13.xml"/>
+                <xi:include href="chaps/Luke_14.xml"/>
+                <xi:include href="chaps/Luke_15.xml"/>
+                <xi:include href="chaps/Luke_16.xml"/>
+                <xi:include href="chaps/Luke_17.xml"/>
+                <xi:include href="chaps/Luke_18.xml"/>
+                <xi:include href="chaps/Luke_19.xml"/>
+                <xi:include href="chaps/Luke_20.xml"/>
+                <xi:include href="chaps/Luke_21.xml"/>
+                <xi:include href="chaps/Luke_22.xml"/>
+                <xi:include href="chaps/Luke_23.xml"/>
+                <xi:include href="chaps/Luke_24.xml"/>
+            </div>
+            <div type="book" n="43" xml:id="KJV_JOH">
+                <head>John</head>
+                <xi:include href="chaps/John_01.xml"/>
+                <xi:include href="chaps/John_02.xml"/>
+                <xi:include href="chaps/John_03.xml"/>
+                <xi:include href="chaps/John_04.xml"/>
+                <xi:include href="chaps/John_05.xml"/>
+                <xi:include href="chaps/John_06.xml"/>
+                <xi:include href="chaps/John_07.xml"/>
+                <xi:include href="chaps/John_08.xml"/>
+                <xi:include href="chaps/John_09.xml"/>
+                <xi:include href="chaps/John_10.xml"/>
+                <xi:include href="chaps/John_11.xml"/>
+                <xi:include href="chaps/John_12.xml"/>
+                <xi:include href="chaps/John_13.xml"/>
+                <xi:include href="chaps/John_14.xml"/>
+                <xi:include href="chaps/John_15.xml"/>
+                <xi:include href="chaps/John_16.xml"/>
+                <xi:include href="chaps/John_17.xml"/>
+                <xi:include href="chaps/John_18.xml"/>
+                <xi:include href="chaps/John_19.xml"/>
+                <xi:include href="chaps/John_20.xml"/>
+                <xi:include href="chaps/John_21.xml"/>
+            </div>
+            <div type="book" n="44" xml:id="KJV_ACT">
+                <head>Acts</head>
+                <xi:include href="chaps/Acts_01.xml"/>
+                <xi:include href="chaps/Acts_02.xml"/>
+                <xi:include href="chaps/Acts_03.xml"/>
+                <xi:include href="chaps/Acts_04.xml"/>
+                <xi:include href="chaps/Acts_05.xml"/>
+                <xi:include href="chaps/Acts_06.xml"/>
+                <xi:include href="chaps/Acts_07.xml"/>
+                <xi:include href="chaps/Acts_08.xml"/>
+                <xi:include href="chaps/Acts_09.xml"/>
+                <xi:include href="chaps/Acts_10.xml"/>
+                <xi:include href="chaps/Acts_11.xml"/>
+                <xi:include href="chaps/Acts_12.xml"/>
+                <xi:include href="chaps/Acts_13.xml"/>
+                <xi:include href="chaps/Acts_14.xml"/>
+                <xi:include href="chaps/Acts_15.xml"/>
+                <xi:include href="chaps/Acts_16.xml"/>
+                <xi:include href="chaps/Acts_17.xml"/>
+                <xi:include href="chaps/Acts_18.xml"/>
+                <xi:include href="chaps/Acts_19.xml"/>
+                <xi:include href="chaps/Acts_20.xml"/>
+                <xi:include href="chaps/Acts_21.xml"/>
+                <xi:include href="chaps/Acts_22.xml"/>
+                <xi:include href="chaps/Acts_23.xml"/>
+                <xi:include href="chaps/Acts_24.xml"/>
+                <xi:include href="chaps/Acts_25.xml"/>
+                <xi:include href="chaps/Acts_26.xml"/>
+                <xi:include href="chaps/Acts_27.xml"/>
+                <xi:include href="chaps/Acts_28.xml"/>
+            </div>
+            <div type="book" n="45" xml:id="KJV_ROM">
+                <head>Romans</head>
+                <xi:include href="chaps/Romans_01.xml"/>
+                <xi:include href="chaps/Romans_02.xml"/>
+                <xi:include href="chaps/Romans_03.xml"/>
+                <xi:include href="chaps/Romans_04.xml"/>
+                <xi:include href="chaps/Romans_05.xml"/>
+                <xi:include href="chaps/Romans_06.xml"/>
+                <xi:include href="chaps/Romans_07.xml"/>
+                <xi:include href="chaps/Romans_08.xml"/>
+                <xi:include href="chaps/Romans_09.xml"/>
+                <xi:include href="chaps/Romans_10.xml"/>
+                <xi:include href="chaps/Romans_11.xml"/>
+                <xi:include href="chaps/Romans_12.xml"/>
+                <xi:include href="chaps/Romans_13.xml"/>
+                <xi:include href="chaps/Romans_14.xml"/>
+                <xi:include href="chaps/Romans_15.xml"/>
+                <xi:include href="chaps/Romans_16.xml"/>
+            </div>
+            <div type="book" n="46" xml:id="KJV_1CO">
+                <head>1-Corinthians</head>
+                <xi:include href="chaps/1-Corinthians_01.xml"/>
+                <xi:include href="chaps/1-Corinthians_02.xml"/>
+                <xi:include href="chaps/1-Corinthians_03.xml"/>
+                <xi:include href="chaps/1-Corinthians_04.xml"/>
+                <xi:include href="chaps/1-Corinthians_05.xml"/>
+                <xi:include href="chaps/1-Corinthians_06.xml"/>
+                <xi:include href="chaps/1-Corinthians_07.xml"/>
+                <xi:include href="chaps/1-Corinthians_08.xml"/>
+                <xi:include href="chaps/1-Corinthians_09.xml"/>
+                <xi:include href="chaps/1-Corinthians_10.xml"/>
+                <xi:include href="chaps/1-Corinthians_11.xml"/>
+                <xi:include href="chaps/1-Corinthians_12.xml"/>
+                <xi:include href="chaps/1-Corinthians_13.xml"/>
+                <xi:include href="chaps/1-Corinthians_14.xml"/>
+                <xi:include href="chaps/1-Corinthians_15.xml"/>
+                <xi:include href="chaps/1-Corinthians_16.xml"/>
+            </div>
+            <div type="book" n="47" xml:id="KJV_2CO">
+                <head>2-Corinthians</head>
+                <xi:include href="chaps/2-Corinthians_01.xml"/>
+                <xi:include href="chaps/2-Corinthians_02.xml"/>
+                <xi:include href="chaps/2-Corinthians_03.xml"/>
+                <xi:include href="chaps/2-Corinthians_04.xml"/>
+                <xi:include href="chaps/2-Corinthians_05.xml"/>
+                <xi:include href="chaps/2-Corinthians_06.xml"/>
+                <xi:include href="chaps/2-Corinthians_07.xml"/>
+                <xi:include href="chaps/2-Corinthians_08.xml"/>
+                <xi:include href="chaps/2-Corinthians_09.xml"/>
+                <xi:include href="chaps/2-Corinthians_10.xml"/>
+                <xi:include href="chaps/2-Corinthians_11.xml"/>
+                <xi:include href="chaps/2-Corinthians_12.xml"/>
+                <xi:include href="chaps/2-Corinthians_13.xml"/>
+            </div>
+            <div type="book" n="48" xml:id="KJV_GAL">
+                <head>Galatians</head>
+                <xi:include href="chaps/Galatians_01.xml"/>
+                <xi:include href="chaps/Galatians_02.xml"/>
+                <xi:include href="chaps/Galatians_03.xml"/>
+                <xi:include href="chaps/Galatians_04.xml"/>
+                <xi:include href="chaps/Galatians_05.xml"/>
+                <xi:include href="chaps/Galatians_06.xml"/>
+            </div>
+            <div type="book" n="49" xml:id="KJV_EPH">
+                <head>Ephesians</head>
+                <xi:include href="chaps/Ephesians_01.xml"/>
+                <xi:include href="chaps/Ephesians_02.xml"/>
+                <xi:include href="chaps/Ephesians_03.xml"/>
+                <xi:include href="chaps/Ephesians_04.xml"/>
+                <xi:include href="chaps/Ephesians_05.xml"/>
+                <xi:include href="chaps/Ephesians_06.xml"/>
+            </div>
+            <div type="book" n="50" xml:id="KJV_PHI">
+                <head>Philippians</head>
+                <xi:include href="chaps/Philippians_01.xml"/>
+                <xi:include href="chaps/Philippians_02.xml"/>
+                <xi:include href="chaps/Philippians_03.xml"/>
+                <xi:include href="chaps/Philippians_04.xml"/>
+            </div>
+            <div type="book" n="51" xml:id="KJV_COL">
+                <head>Colossians</head>
+                <xi:include href="chaps/Colossians_01.xml"/>
+                <xi:include href="chaps/Colossians_02.xml"/>
+                <xi:include href="chaps/Colossians_03.xml"/>
+                <xi:include href="chaps/Colossians_04.xml"/>
+            </div>
+            <div type="book" n="52" xml:id="KJV_1TH">
+                <head>1-Thessalonians</head>
+                <xi:include href="chaps/1-Thessalonians_01.xml"/>
+                <xi:include href="chaps/1-Thessalonians_02.xml"/>
+                <xi:include href="chaps/1-Thessalonians_03.xml"/>
+                <xi:include href="chaps/1-Thessalonians_04.xml"/>
+                <xi:include href="chaps/1-Thessalonians_05.xml"/>
+            </div>
+            <div type="book" n="53" xml:id="KJV_2TH">
+                <head>2-Thessalonians</head>
+                <xi:include href="chaps/2-Thessalonians_01.xml"/>
+                <xi:include href="chaps/2-Thessalonians_02.xml"/>
+                <xi:include href="chaps/2-Thessalonians_03.xml"/>
+            </div>
+            <div type="book" n="54" xml:id="KJV_1TI">
+                <head>1-Timothy</head>
+                <xi:include href="chaps/1-Timothy_01.xml"/>
+                <xi:include href="chaps/1-Timothy_02.xml"/>
+                <xi:include href="chaps/1-Timothy_03.xml"/>
+                <xi:include href="chaps/1-Timothy_04.xml"/>
+                <xi:include href="chaps/1-Timothy_05.xml"/>
+                <xi:include href="chaps/1-Timothy_06.xml"/>
+            </div>
+            <div type="book" n="55" xml:id="KJV_2TI">
+                <head>2-Timothy</head>
+                <xi:include href="chaps/2-Timothy_01.xml"/>
+                <xi:include href="chaps/2-Timothy_02.xml"/>
+                <xi:include href="chaps/2-Timothy_03.xml"/>
+                <xi:include href="chaps/2-Timothy_04.xml"/>
+            </div>
+            <div type="book" n="56" xml:id="KJV_TIT">
+                <head>Titus</head>
+                <xi:include href="chaps/Titus_01.xml"/>
+                <xi:include href="chaps/Titus_02.xml"/>
+                <xi:include href="chaps/Titus_03.xml"/>
+            </div>
+            <div type="book" n="57" xml:id="KJV_PHL">
+                <head>Philemon</head>
+                <xi:include href="chaps/Philemon_01.xml"/>
+            </div>
+            <div type="book" n="58" xml:id="KJV_HEB">
+                <head>Hebrews</head>
+                <xi:include href="chaps/Hebrews_01.xml"/>
+                <xi:include href="chaps/Hebrews_02.xml"/>
+                <xi:include href="chaps/Hebrews_03.xml"/>
+                <xi:include href="chaps/Hebrews_04.xml"/>
+                <xi:include href="chaps/Hebrews_05.xml"/>
+                <xi:include href="chaps/Hebrews_06.xml"/>
+                <xi:include href="chaps/Hebrews_07.xml"/>
+                <xi:include href="chaps/Hebrews_08.xml"/>
+                <xi:include href="chaps/Hebrews_09.xml"/>
+                <xi:include href="chaps/Hebrews_10.xml"/>
+                <xi:include href="chaps/Hebrews_11.xml"/>
+                <xi:include href="chaps/Hebrews_12.xml"/>
+                <xi:include href="chaps/Hebrews_13.xml"/>
+            </div>
+            <div type="book" n="59" xml:id="KJV_JAM">
+                <head>James</head>
+                <xi:include href="chaps/James_01.xml"/>
+                <xi:include href="chaps/James_02.xml"/>
+                <xi:include href="chaps/James_03.xml"/>
+                <xi:include href="chaps/James_04.xml"/>
+                <xi:include href="chaps/James_05.xml"/>
+            </div>
+            <div type="book" n="64" xml:id="KJV_1PE">
+                <head>1-Peter</head>
+                <xi:include href="chaps/1-Peter_01.xml"/>
+                <xi:include href="chaps/1-Peter_02.xml"/>
+                <xi:include href="chaps/1-Peter_03.xml"/>
+                <xi:include href="chaps/1-Peter_04.xml"/>
+                <xi:include href="chaps/1-Peter_05.xml"/>
+            </div>
+            <div type="book" n="65" xml:id="KJV_2PE">
+                <head>2-Peter</head>
+                <xi:include href="chaps/2-Peter_01.xml"/>
+                <xi:include href="chaps/2-Peter_02.xml"/>
+                <xi:include href="chaps/2-Peter_03.xml"/>
+            </div>
+            <div type="book" n="66" xml:id="KJV_1JO">
+                <head>1-John</head>
+                <xi:include href="chaps/1-John_01.xml"/>
+                <xi:include href="chaps/1-John_02.xml"/>
+                <xi:include href="chaps/1-John_03.xml"/>
+                <xi:include href="chaps/1-John_04.xml"/>
+                <xi:include href="chaps/1-John_05.xml"/>
+            </div>
+            <div type="book" n="67" xml:id="KJV_2JO">
+                <head>2-John</head>
+                <xi:include href="chaps/2-John_01.xml"/>
+            </div>
+            <div type="book" n="68" xml:id="KJV_3JO">
+                <head>3-John</head>
+                <xi:include href="chaps/3-John_01.xml"/>
+            </div>
+            <div type="book" n="69" xml:id="KJV_JUD">
+                <head>Jude</head>
+                <xi:include href="chaps/Jude_01.xml"/>
+            </div>
+            <div type="book" n="70" xml:id="KJV_REV">
+                <head>Revelation</head>
+                <xi:include href="chaps/Revelation_01.xml"/>
+                <xi:include href="chaps/Revelation_02.xml"/>
+                <xi:include href="chaps/Revelation_03.xml"/>
+                <xi:include href="chaps/Revelation_04.xml"/>
+                <xi:include href="chaps/Revelation_05.xml"/>
+                <xi:include href="chaps/Revelation_06.xml"/>
+                <xi:include href="chaps/Revelation_07.xml"/>
+                <xi:include href="chaps/Revelation_08.xml"/>
+                <xi:include href="chaps/Revelation_09.xml"/>
+                <xi:include href="chaps/Revelation_10.xml"/>
+                <xi:include href="chaps/Revelation_11.xml"/>
+                <xi:include href="chaps/Revelation_12.xml"/>
+                <xi:include href="chaps/Revelation_13.xml"/>
+                <xi:include href="chaps/Revelation_14.xml"/>
+                <xi:include href="chaps/Revelation_15.xml"/>
+                <xi:include href="chaps/Revelation_16.xml"/>
+                <xi:include href="chaps/Revelation_17.xml"/>
+                <xi:include href="chaps/Revelation_18.xml"/>
+                <xi:include href="chaps/Revelation_19.xml"/>
+                <xi:include href="chaps/Revelation_20.xml"/>
+                <xi:include href="chaps/Revelation_21.xml"/>
+                <xi:include href="chaps/Revelation_22.xml"/>
+            </div>
+        </body>
+    </text>
+</TEI>
