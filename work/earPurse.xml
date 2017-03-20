@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sow's Ear to Silk Purse</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published at http://foxglove.hypothese.org/524 (wouldn't it be nice if I could
+            just upload this TEI XML to that site, but ... )</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>No source: an original work</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2017-03-20">Blog entry first posted</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>How to make a sow's ear into a silk purse/Comment faire d'une buse un épervier</head>
+         <p>As the proverb says, you can't turn a buzzard into a sparrow-hawk. But here's how I went about producing a TEI-conformant
+            minimally encoded edition of the 1611 King James bible, starting from an all-singing,
+            all-dancing, vastly over-complicated, web site to the existence of which Martin Mueller
+            had alerted me last Friday in <ref
+               target="http://tei-l.970651.n3.nabble.com/1611-King-James-Bible-tp4029494.html"> a
+               plaintive posting to TEI-L<graphic url="mueller-mail.png"/></ref>
+         </p>
+         <p>The problem with web sites like this is that they expose only various HTML views of
+            their underlying data, usually heavily infested with javascript, often deploying all
+            sorts of nonstandard gizmos to make the pages look just so. I've no quarrel with their
+            doing that, I just wish they'd make it a bit easier to get at the real data, i.e. the
+            transcribed text and the pointers to the images that go with them. This site is a case
+            in point: after spending some time looking at some of the gazillion HTML files a
+            simple-minded <ident>wget -r</ident> starts hoovering up, I hypothesize that the data is
+            actually stashed away somewhere inaccessible and all that you see on the site is a bunch
+            of variously configured static web pages which have been created from it. The good thing
+            about that is that the static web pages were created by an automaton, and the process
+            can therefore be reversed by another automaton. The bad thing is that (in this case at
+            least) clearly different automata have been used to generate vaguely different versions
+            of the same page. For example: the following three URLs all show subtly different
+            versions of the same first page of the 1611 bible :
+               <ref>https://www.kingjamesbibleonline.org/1611_Genesis-Chapter-1/</ref>
+            <ref>https://www.kingjamesbibleonline.org/Genesis-Chapter-1_Original-1611-KJV/</ref>
+            <ref>https://www.kingjamesbibleonline.org/Genesis_1_1611/</ref> These are not simple
+            redirects: each URL delivers a file in a different format. Well, I could have asked
+            whoever runs this site what was going on, but that would have spoiled the fun, so I
+            chose the format I liked best (the last of the three above) and wrote a script to
+            generate requests for just those pages. I had to assume that the URLs would follow a
+            consistent naming format, encouraged by a table of the names of the books of the bible I
+            found in one of the chunks of embedded javascript, and which I moved into <ref
+               target="https://github.com/lb42/KJV_1611/blob/master/work/grab.prl">my little perl
+               script</ref>. Running this script produced a bash script which grabbed each page
+            using <ident>curl</ident> and saved it as an HTML file on my machine. </p>
+         <p>What went wrong with this process? Surprisingly little: I didn't find out till Sunday
+            lunchtime that not only had I completely overlooked the Apocryphal books, but also that
+            the file naming conventions used for these were not <emph>quite</emph> the same as for
+            the canonical chapters ("Judith" for example is actually spelled "Iudeth"), but for the
+            bulk of the 1300 or so chapters my guesses about the URL to use were spot on.</p>
+         <p>The real challenge was disentangling the useful data from the resulting screen-scraped
+            mess of pottage. My usual approach here is to run the HTML I get through Dave Ragget's
+            utterly wonderful <ident>tidy</ident> utility to turn it into kosher XML, and then write
+            an XSLT script to pick out the bits I want. In this case, however, the pottage I got was
+            so messy even tidy threw up its metaphorical hands and refused to proceed with it, so I
+            had to concoct <ref
+               target="https://github.com/lb42/KJV_1611/blob/master/work/extract.prl">a little perl
+               script</ref> to pre-process each file and extract just the useful part, before
+            running it through tidy, and processing the resulting XML into conformant TEI by means
+            of <ident>saxon</ident> and <ref
+               target="https://github.com/lb42/KJV_1611/blob/master/work/postGrab.xsl">a little XSLT
+               stylesheet</ref>. Like this: <eg><code>for f in webScraped/*.html; do \
+                  FNAME=`basename $f .html`;\ echo ${FNAME} ;\ perl extract.prl $f | \ tidy -q
+                  --error-file tidyerrs --doctype omit --numeric-entities yes -asxml | \ saxon
+                  -o:chaps/${FNAME}.xml -s:- -xsl:postGrab.xsl chapId=${FNAME};\ done;</code></eg>
+         </p>
+         <p>And what went wrong with <emph>this</emph> process? Well, quite a lot, as you might
+            expect, but nothing that couldn't be fixed by tweaking and rerunning the process (this
+            is why I always put the effort into writing bash scripts for jobs like this: they can be
+            rerun till I get it right). For example, I was deriving an XML id for each chapter from
+            the name of the input file, but some of the files had names beginning with digits. My
+            plan was to put each chapter into a separate XML file and then use xInclude to munge
+            them together into a TEI document (to maximize the flexibility of said mungeing) -- but
+            for this to work I had to get namespace declarations in the right place, and as anyone
+            who has used them knows, anything involving namespace declarations never works the first
+            time. To say nothing of unexpected inconsistencies in the data : which in fact were
+            really very few. In fact so far, the only thing that has so far caught me out was a
+            handful of chunks which looked like biblical data in the HTML markup but were not.
+            Fortunately these were detectable because they wound up with an invalid <att>n</att>
+            attribute in the XML output and could therefore be weeded out after the event.</p>
+         <p>While all this was going on, I wrote my driver file and did some further sniffing around
+            on the interwebs for sources from which to complete the work. The 1611 Bible has a title
+            page and loads of prefatory matter not all of which is available on
+            www.kingjamesbibleonline.org (for the record, I found the title page on Wikimedia, and
+            the rest of the front matter at several places, but in page image form only). </p>
+         <p>How should the Bible be modelled as a TEI document? In my first view, each verse is an
+               <gi>ab</gi>, each chapter is a <gi>div</gi>, each book is a <gi>text</gi>, each
+            testament is a <gi>group</gi>. This made sense to me, but then I realised that
+            processing would be simpler if instead each book were regarded as a <gi>div</gi> of a
+            different type; hence, that is what the current versions of both driver file and ODD
+            say. Considerations of where to put the genealogies, tables for Easter, almanachs etc.
+            which arguably do not belong in the front matter may lead me to review that decision, so
+            I have left <gi>group</gi> lurking in my ODD. It should also be possible to produce a
+            separate driver file representing that alternative view.</p>
+         <p>A more pressing need, however, is to sort out the placement of the page image links: in
+            the HTML source, and therefore in my XML, links to the page images for the whole of a
+            chapter are given as a sequence at the start of the transcribed text for that chapter,
+            rather than being placed at the point in the transcript where that page begins. In some
+            cases that point is identifiable because the transcribers have chosen to include part of
+            the running page header in the transcription there (it winds up as <gi>fw</gi>); but in
+            many it isn't. Most chapters only occupy a few pages so sorting this out would not be a
+            major effort, just a rather tedious one, and not-easily-automatable one. </p>
+         <p>So what have we learned? Actually it's not that hard to make a usable TEI document even
+            from something as idiosyncratic as this web site. Which is encouraging. Let me also
+            hasten to add that I mean no disrespect for the hard work (still less for the
+            generosity) which must have gone into the production of that website: everyone is
+            entitled to their own design decisions. I am pleased to express my thanks to the
+            anonymous people who have put in that effort, and decided to share its fruits even with
+            the godless multitude. As the 1611 translators say in their preface <q>Zeale to promote
+               the common good, whether it be by devising any thing our selves, or revising that
+               which hath bene laboured by others, deserveth certainly much respect and esteeme</q>.
+         </p>
+      </body>
+   </text>
+</TEI>
