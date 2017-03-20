@@ -5,7 +5,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-03-19T14:07:28Z. .
+# Schema generated from ODD source 2017-03-20T00:00:25Z. .
 # TEI Edition: Version 3.1.1a. Last updated on
 #	13th March 2017, revision 6c0756c
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
@@ -682,12 +682,12 @@ model.lLike_sequence = empty
 model.lLike_sequenceOptional = empty
 model.lLike_sequenceOptionalRepeatable = empty
 model.lLike_sequenceRepeatable = notAllowed
-model.pLike = ab
-model.pLike_alternation = ab
-model.pLike_sequence = ab
-model.pLike_sequenceOptional = ab?
-model.pLike_sequenceOptionalRepeatable = ab*
-model.pLike_sequenceRepeatable = ab+
+model.pLike = p | ab
+model.pLike_alternation = p | ab
+model.pLike_sequence = p, ab
+model.pLike_sequenceOptional = p?, ab?
+model.pLike_sequenceOptionalRepeatable = p*, ab*
+model.pLike_sequenceRepeatable = p+, ab+
 model.stageLike = notAllowed
 model.stageLike_alternation = notAllowed
 model.stageLike_sequence = empty
@@ -1151,13 +1151,66 @@ pb =
     att.breaking.attributes,
     empty
   }
+p =
+  
+  ## (paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]
+  element p {
+    macro.paraContent
+    >> sch:pattern [
+         id = "KJV1611-p-abstractModel-p-constraint-report-6"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:p"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "not(ancestor::floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )"
+             "\x{a}" ~
+             "        Abstract model violation: Paragraphs may not contain other paragraphs or ab elements.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "KJV1611-p-abstractModel-structure-l-constraint-report-7"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:p"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    att.global.attributes,
+    att.declaring.attributes,
+    att.fragmentable.attributes,
+    att.written.attributes,
+    empty
+  }
 ab =
   
   ## (anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]
   element ab {
     macro.paraContent
     >> sch:pattern [
-         id = "KJV1611-ab-abstractModel-structure-p-constraint-report-6"
+         id = "KJV1611-ab-abstractModel-structure-p-constraint-report-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1178,7 +1231,7 @@ ab =
          "         "
        ]
     >> sch:pattern [
-         id = "KJV1611-ab-abstractModel-structure-l-constraint-report-7"
+         id = "KJV1611-ab-abstractModel-structure-l-constraint-report-9"
          "\x{a}" ~
          "            "
          sch:rule [

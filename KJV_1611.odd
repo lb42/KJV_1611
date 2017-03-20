@@ -52,6 +52,7 @@
             <elementRef key="head"/>
             <elementRef key="note"/>
             <elementRef key="pb"/>
+            <elementRef key="p"/>           
             <elementRef key="ab"/>
             <elementRef key="fw"/>
             <classRef key="att.global.facs"/>
