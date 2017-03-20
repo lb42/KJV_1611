@@ -35,7 +35,8 @@
                 <docImprint> Imprinted at London by Robert Barker, Printer to the Kings moſt
                     Excellent Maiestie. ANNO DOM. 1611 .</docImprint>
             </titlePage>
-            <xi:include href="front/prefaces.xml"/> 
+            <xi:include href="front/dedication.xml"/> 
+            <xi:include href="front/preface.xml"/> 
             <!-- almanacs, table to find easter, lessons etc. -->
             <div type="genealogies">
                 <head> The Genealogies Recorded in the Sacred Scriptures, according to euery Family
