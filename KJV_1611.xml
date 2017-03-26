@@ -1104,6 +1104,7 @@
             </div>
             <!-- apocrypha -->
             <div type="book" xml:id="KJV_1ES">
+                <head>1 Esdras</head>
                 <xi:include href="chaps/1-Esdras_01.xml"/>
                 <xi:include href="chaps/1-Esdras_02.xml"/>
                 <xi:include href="chaps/1-Esdras_03.xml"/>
@@ -1115,6 +1116,7 @@
                 <xi:include href="chaps/1-Esdras_09.xml"/>
             </div>
             <div type="book" xml:id="KJV_2ES">
+                <head>2 Esdras</head>
                 <xi:include href="chaps/2-Esdras_01.xml"/>
                 <xi:include href="chaps/2-Esdras_02.xml"/>
                 <xi:include href="chaps/2-Esdras_03.xml"/>
@@ -1133,6 +1135,7 @@
                 <xi:include href="chaps/2-Esdras_16.xml"/>
             </div>
             <div type="book" xml:id="KJV_TOB">
+                <head>Tobit</head>
                 <xi:include href="chaps/Tobit_01.xml"/>
                 <xi:include href="chaps/Tobit_02.xml"/>
                 <xi:include href="chaps/Tobit_03.xml"/>
@@ -1149,6 +1152,7 @@
                 <xi:include href="chaps/Tobit_14.xml"/>
             </div>
             <div type="book" xml:id="KJV_JUD">
+                <head>Judith</head>
                 <xi:include href="chaps/Judith_01.xml"/>
                 <xi:include href="chaps/Judith_02.xml"/>
                 <xi:include href="chaps/Judith_03.xml"/>
@@ -1167,6 +1171,7 @@
                 <xi:include href="chaps/Judith_16.xml"/>
             </div>
             <div type="book" xml:id="KJV_EST">
+                <head>Esther</head>
                 <xi:include href="chaps/Esther_10.xml"/>
                 <xi:include href="chaps/Esther_11.xml"/>
                 <xi:include href="chaps/Esther_12.xml"/>
@@ -1176,6 +1181,7 @@
                 <xi:include href="chaps/Esther_16.xml"/>
             </div>
             <div type="book" xml:id="KJV_WIS">
+                <head>Wisdom of Solomon</head>
                 <xi:include href="chaps/Wisedom_01.xml"/>
                 <xi:include href="chaps/Wisedom_02.xml"/>
                 <xi:include href="chaps/Wisedom_03.xml"/>
@@ -1197,6 +1203,7 @@
                 <xi:include href="chaps/Wisedom_19.xml"/>
             </div>
             <div type="book" xml:id="KJV_ECC">
+                <head>Ecclesiasticus</head>
                 <xi:include href="chaps/Ecclesiasticus_01.xml"/>
                 <xi:include href="chaps/Ecclesiasticus_02.xml"/>
                 <xi:include href="chaps/Ecclesiasticus_03.xml"/>
@@ -1250,6 +1257,7 @@
                 <xi:include href="chaps/Ecclesiasticus_51.xml"/>
             </div>
             <div type="book" xml:id="KJV_BAR">
+                <head>Baruch</head>
                 <xi:include href="chaps/Baruch_01.xml"/>
                 <xi:include href="chaps/Baruch_02.xml"/>
                 <xi:include href="chaps/Baruch_03.xml"/>
@@ -1257,21 +1265,27 @@
                 <xi:include href="chaps/Baruch_05.xml"/>
             </div>
             <div type="book" xml:id="KJV_JER">
+                <head>Letter of Jeremiah</head>
                 <xi:include href="chaps/Jeremiah_01.xml"/>
             </div>
             <div type="book" xml:id="KJV_S3C">
+                <head>Prayer of Azariah</head>
                 <xi:include href="chaps/Song-of-the-three-children_01.xml"/>
             </div>
             <div type="book" xml:id="KJV_SUS">
+                <head>Susanna</head>
                 <xi:include href="chaps/Susanna_01.xml"/>
             </div>
             <div type="book" xml:id="KJV_BEL">
+                <head>Bel and the Dragon</head>
                 <xi:include href="chaps/Bel-and-the-Dragon_01.xml"/>
             </div>
             <div type="book" xml:id="KJV_PRA">
+                <head>Prayer of Manasseh</head>
                 <xi:include href="chaps/Prayer-of-Manasseh_01.xml"/>
             </div>
             <div type="book" xml:id="KJV_1MA">
+                <head>1 Maccabees</head>
                 <xi:include href="chaps/1-Maccabees_01.xml"/>
                 <xi:include href="chaps/1-Maccabees_02.xml"/>
                 <xi:include href="chaps/1-Maccabees_03.xml"/>
@@ -1290,6 +1304,7 @@
                 <xi:include href="chaps/1-Maccabees_16.xml"/>
             </div>
             <div type="book" xml:id="KJV_2MA">
+                <head>2 Maccabees</head>
                 <xi:include href="chaps/2-Maccabees_01.xml"/>
                 <xi:include href="chaps/2-Maccabees_02.xml"/>
                 <xi:include href="chaps/2-Maccabees_03.xml"/>
