@@ -7,15 +7,16 @@
                 <title>The Holy Bible : 1611 edition</title>
             </titleStmt>
             <publicationStmt>
-                <ab>Distributed via the GitHub repository lb42.github.io/KJV_1611</ab>
+                <ab>Distributed via the GitHub repository https://github.com/lb42/KJV_1611</ab>
             </publicationStmt>
             <sourceDesc>
                 <ab>The transcription was downloaded from the website www.kingjamesbibleonline.org
-                    on February 18 March, and the resulting web files reprocessed by a variety of
+                    on February 18 and the resulting web files reprocessed by a variety of
                     tools to produce a TEI conformant XML version.</ab>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-02-26">Added several chapters which had been incorrectly downloaded</change>
             <change when="2017-02-19">Added TEI Header and titlepage from Wikimedia</change>
         </revisionDesc>
     </teiHeader>

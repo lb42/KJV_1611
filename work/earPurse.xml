@@ -9,22 +9,24 @@
             <title>Sow's Ear to Silk Purse</title>
          </titleStmt>
          <publicationStmt>
-            <p>Published at http://foxglove.hypothese.org/524 (wouldn't it be nice if I could
-            just upload this TEI XML to that site, but ... )</p>
+            <p>Published at http://foxglove.hypothese.org/524 (wouldn't it be nice if I could just
+               upload this TEI XML to that site, but ... )</p>
          </publicationStmt>
          <sourceDesc>
             <p>No source: an original work</p>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2017-03-20">Blog entry first posted</change></revisionDesc>
+      <revisionDesc>
+         <change when="2017-03-20">Blog entry first posted</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <head>How to make a sow's ear into a silk purse/Comment faire d'une buse un épervier</head>
-         <p>As the proverb says, you can't turn a buzzard into a sparrow-hawk. But here's how I went about producing a TEI-conformant
-            minimally encoded edition of the 1611 King James bible, starting from an all-singing,
-            all-dancing, vastly over-complicated, web site to the existence of which Martin Mueller
-            had alerted me last Friday in <ref
+         <p>As the proverb says, you can't turn a buzzard into a sparrow-hawk. But here's how I went
+            about producing a <ref target="https://github.com/lb42/KJV_1611/">TEI-conformant minimally encoded edition of the 1611 King James bible</ref>,
+            starting from an all-singing, all-dancing, vastly over-complicated, web site to the
+            existence of which Martin Mueller had alerted me last Friday in <ref
                target="http://tei-l.970651.n3.nabble.com/1611-King-James-Bible-tp4029494.html"> a
                plaintive posting to TEI-L<graphic url="mueller-mail.png"/></ref>
          </p>
@@ -58,7 +60,18 @@
             lunchtime that not only had I completely overlooked the Apocryphal books, but also that
             the file naming conventions used for these were not <emph>quite</emph> the same as for
             the canonical chapters ("Judith" for example is actually spelled "Iudeth"), but for the
-            bulk of the 1300 or so chapters my guesses about the URL to use were spot on.</p>
+            bulk of the 1300 or so chapters my guesses about the URL to use were spot on
+            <note place="foot">Hubris. A week later I was advised by a colleague that she'd just noticed 
+            one of the files allegedly containing a chapter of Psalms in fact contained a chapter from
+            Genesis. Further investigation revealed that my guesses about the filenames used, and
+            hence the URL's to scrape from, were seriously wrong on several occasions, mostly because
+            of varying policies about whether to use I or J, U or V. I would have detected this a lot sooner
+            if someone (or something) had not also decided that the right response to a request for a non-existent URL (say, "Habbakuk_01"
+            instead of "Habbakvk_01") was not a 404 (or even a helpful page saying "no such book") but the corresponding
+            corresponding chapter from the Book of Genesis. I'm as fond of Genesis as the next sinner, but
+            I really didn't want to read it that often. On the plus side, while fixing this problem
+            I noticed a minor misapprehension in my XSLT script, and fixed that as well
+            </note>.</p>
          <p>The real challenge was disentangling the useful data from the resulting screen-scraped
             mess of pottage. My usual approach here is to run the HTML I get through Dave Ragget's
             utterly wonderful <ident>tidy</ident> utility to turn it into kosher XML, and then write

@@ -55,6 +55,8 @@
             <elementRef key="p"/>           
             <elementRef key="ab"/>
             <elementRef key="fw"/>
+            <elementRef key="hi"/>
+            
             <classRef key="att.global.facs"/>
          </schemaSpec>
       </body>

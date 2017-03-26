@@ -30,9 +30,9 @@
    
     
     <xsl:template match="h:a/h:sup">
-        <note>
+      <xsl:choose> <xsl:when test="@style"> <note>
             <xsl:value-of select="substring-after(../@title,'Reference:')"/>
-        </note>
+        </note></xsl:when><xsl:otherwise><xsl:apply-templates/></xsl:otherwise></xsl:choose>
     </xsl:template>
     <xsl:template match="h:img">
         <pb facs="{@src}"/>
