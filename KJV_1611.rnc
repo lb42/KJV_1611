@@ -5,7 +5,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-03-26T14:11:01Z. .
+# Schema generated from ODD source 2017-03-27T12:20:36Z. .
 # TEI Edition: Version 3.1.1a. Last updated on
 #	13th March 2017, revision 6c0756c
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
@@ -663,12 +663,12 @@ model.headLike_sequence = head
 model.headLike_sequenceOptional = head?
 model.headLike_sequenceOptionalRepeatable = head*
 model.headLike_sequenceRepeatable = head+
-model.labelLike = notAllowed
-model.labelLike_alternation = notAllowed
-model.labelLike_sequence = empty
-model.labelLike_sequenceOptional = empty
-model.labelLike_sequenceOptionalRepeatable = empty
-model.labelLike_sequenceRepeatable = notAllowed
+model.labelLike = label
+model.labelLike_alternation = label
+model.labelLike_sequence = label
+model.labelLike_sequenceOptional = label?
+model.labelLike_sequenceOptionalRepeatable = label*
+model.labelLike_sequenceRepeatable = label+
 model.listLike = notAllowed
 model.listLike_alternation = notAllowed
 model.listLike_sequence = empty
@@ -1279,6 +1279,17 @@ hi =
   element hi {
     macro.paraContent,
     att.global.attributes,
+    att.written.attributes,
+    empty
+  }
+label =
+  
+  ## contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.7. Lists]
+  element label {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.typed.attributes,
+    att.placement.attributes,
     att.written.attributes,
     empty
   }

@@ -37,8 +37,17 @@
             original, where these have been included in the transcription. The <gi>pb</gi> elements
             indicate where an image of the original source was included in the transcription, not
             necessarily where the page begins in the corrresponding transcription. </p>
+         <p>The <gi>hi</gi> and <gi>label</gi> elements are included to permit the marking of
+            significant font variation and structural labels respectively. The text of the KJV 1611
+            is printed in a black letter font for the most part, with Roman used occasionally for
+            words added by the translators. At some stage we might use <gi>hi</gi> to indicate
+            these. The <gi>label</gi> element can be used for structural labels in the source which
+            don't necessarily coincide with the book/verse structure: examples include the Hebrew
+            letters used to indicate subdivisions of Psalm 119. The KJV transcript uses square
+            brackets both for these and for passages bracketted off in the source, which needs to be
+            resolved.</p>
          <p>This schema provides a large number of redundant attributes not used in the encoding.
-            <foreign xml:lang="la">Ars longa vita brevis</foreign>.</p>
+               <foreign xml:lang="la">Ars longa vita brevis</foreign>.</p>
          <schemaSpec ident="KJV1611" start="div TEI">
             <moduleRef key="tei"/>
             <moduleRef key="header"
@@ -52,11 +61,11 @@
             <elementRef key="head"/>
             <elementRef key="note"/>
             <elementRef key="pb"/>
-            <elementRef key="p"/>           
+            <elementRef key="p"/>
             <elementRef key="ab"/>
             <elementRef key="fw"/>
             <elementRef key="hi"/>
-            
+            <elementRef key="label"/>
             <classRef key="att.global.facs"/>
          </schemaSpec>
       </body>
