@@ -5,7 +5,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-03-20T00:00:25Z. .
+# Schema generated from ODD source 2017-03-26T14:11:01Z. .
 # TEI Edition: Version 3.1.1a. Last updated on
 #	13th March 2017, revision 6c0756c
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
@@ -586,12 +586,12 @@ model.nameLike.agent_sequenceOptional = empty
 model.nameLike.agent_sequenceOptionalRepeatable = empty
 model.nameLike.agent_sequenceRepeatable = notAllowed
 model.segLike = notAllowed
-model.hiLike = notAllowed
-model.hiLike_alternation = notAllowed
-model.hiLike_sequence = empty
-model.hiLike_sequenceOptional = empty
-model.hiLike_sequenceOptionalRepeatable = empty
-model.hiLike_sequenceRepeatable = notAllowed
+model.hiLike = hi
+model.hiLike_alternation = hi
+model.hiLike_sequence = hi
+model.hiLike_sequenceOptional = hi?
+model.hiLike_sequenceOptionalRepeatable = hi*
+model.hiLike_sequenceRepeatable = hi+
 model.emphLike = title
 model.emphLike_alternation = title
 model.emphLike_sequence = title
@@ -1271,6 +1271,15 @@ fw =
     attribute type {
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
+    empty
+  }
+hi =
+  
+  ## (highlighted) marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is made. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]
+  element hi {
+    macro.paraContent,
+    att.global.attributes,
+    att.written.attributes,
     empty
   }
 att.global.facs.attributes = att.global.facs.attribute.facs
