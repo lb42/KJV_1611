@@ -16,6 +16,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-06-18">Restore missing bits of apocrypha; correct IDs</change>
             <change when="2017-03-26">Added several chapters which had been incorrectly downloaded</change>
             <change when="2017-03-19">Added TEI Header and titlepage from Wikimedia</change>
         </revisionDesc>
@@ -1264,11 +1265,7 @@
                 <xi:include href="chaps/Baruch_05.xml"/>
                 <xi:include href="chaps/Baruch_06.xml"/>
             </div>
-           <!-- <div type="book" xml:id="KJV_JER">
-                <head>Letter of Jeremiah</head>
-                <xi:include href="chaps/Jeremiah_01.xml"/>
-            </div>
-         --> <!-- shd be baruch06 -->  <div type="book" xml:id="KJV_S3C">
+           <div type="book" xml:id="KJV_S3C">
                 <head>Prayer of Azariah</head>
                 <xi:include href="chaps/Song-of-the-three-children_01.xml"/>
             </div>
@@ -1278,7 +1275,7 @@
             </div>
             <div type="book" xml:id="KJV_BEL">
                 <head>Bel and the Dragon</head>
-                <xi:include href="chaps/Bel-and-the-Dragon_01.xml"/>
+                <xi:include href="chaps/BelDragon_01.xml"/>
             </div>
             <div type="book" xml:id="KJV_PRA">
                 <head>Prayer of Manasseh</head>
