@@ -1151,7 +1151,7 @@
                 <xi:include href="chaps/Tobit_13.xml"/>
                 <xi:include href="chaps/Tobit_14.xml"/>
             </div>
-            <div type="book" xml:id="KJV_JUD">
+            <div type="book" xml:id="KJV_IUD">  <!-- not JUD, which is Judges -->
                 <head>Judith</head>
                 <xi:include href="chaps/Judith_01.xml"/>
                 <xi:include href="chaps/Judith_02.xml"/>
@@ -1170,10 +1170,9 @@
                 <xi:include href="chaps/Judith_15.xml"/>
                 <xi:include href="chaps/Judith_16.xml"/>
             </div>
-            <div type="book" xml:id="KJV_EST">
+            <div type="book" xml:id="KJV_ES2"><!-- continuation of esther -->
                 <head>Esther</head>
-                <xi:include href="chaps/Esther_10.xml"/>
-                <xi:include href="chaps/Esther_11.xml"/>
+                <xi:include href="chaps/Esther_11.xml"/><!-- actually numbered  10, but it isnt -->
                 <xi:include href="chaps/Esther_12.xml"/>
                 <xi:include href="chaps/Esther_13.xml"/>
                 <xi:include href="chaps/Esther_14.xml"/>
@@ -1202,7 +1201,7 @@
                 <xi:include href="chaps/Wisedom_18.xml"/>
                 <xi:include href="chaps/Wisedom_19.xml"/>
             </div>
-            <div type="book" xml:id="KJV_ECC">
+            <div type="book" xml:id="KJV_ECS"><!-- not ecc -->
                 <head>Ecclesiasticus</head>
                 <xi:include href="chaps/Ecclesiasticus_01.xml"/>
                 <xi:include href="chaps/Ecclesiasticus_02.xml"/>
@@ -1263,12 +1262,13 @@
                 <xi:include href="chaps/Baruch_03.xml"/>
                 <xi:include href="chaps/Baruch_04.xml"/>
                 <xi:include href="chaps/Baruch_05.xml"/>
+                <xi:include href="chaps/Baruch_06.xml"/>
             </div>
-            <div type="book" xml:id="KJV_JER">
+           <!-- <div type="book" xml:id="KJV_JER">
                 <head>Letter of Jeremiah</head>
                 <xi:include href="chaps/Jeremiah_01.xml"/>
             </div>
-            <div type="book" xml:id="KJV_S3C">
+         --> <!-- shd be baruch06 -->  <div type="book" xml:id="KJV_S3C">
                 <head>Prayer of Azariah</head>
                 <xi:include href="chaps/Song-of-the-three-children_01.xml"/>
             </div>
@@ -1634,7 +1634,7 @@
                 <head>3-John</head>
                 <xi:include href="chaps/3-John_01.xml"/>
             </div>
-            <div type="book" n="69" xml:id="KJV_JUD">
+            <div type="book" n="69" xml:id="KJV_HEY"> <!-- not JUD which is Judges, nor IUD which is Judith, nor JUDE but ...-->
                 <head>Jude</head>
                 <xi:include href="chaps/Jude_01.xml"/>
             </div>

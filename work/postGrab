@@ -1,5 +1,5 @@
-for f in reScraped/Hab*.html; do \
+for f in reScraped/*.html; do \
 FNAME=`basename $f .html`;\
 echo ${FNAME} ;\
-perl work/extract.prl $f | tidy -q --error-file tidyerrs --doctype omit --numeric-entities yes -asxml | saxon -o:chaps/${FNAME}.xml -s:- -xsl:work/postGrab.xsl chapId=${FNAME};\
+perl extract.prl $f | tidy -q --error-file tidyerrs --doctype omit --numeric-entities yes -asxml | saxon -o:chaps/${FNAME}.xml -s:- -xsl:postGrab.xsl chapId=${FNAME};\
 done;
