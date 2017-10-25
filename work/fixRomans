@@ -1,0 +1,16 @@
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_1_1611/ >reScraped/Romans_01.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_2_1611/ >reScraped/Romans_02.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_3_1611/ >reScraped/Romans_03.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_4_1611/ >reScraped/Romans_04.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_5_1611/ >reScraped/Romans_05.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_6_1611/ >reScraped/Romans_06.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_7_1611/ >reScraped/Romans_07.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_8_1611/ >reScraped/Romans_08.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_9_1611/ >reScraped/Romans_09.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_10_1611/ >reScraped/Romans_10.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_11_1611/ >reScraped/Romans_11.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_12_1611/ >reScraped/Romans_12.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_13_1611/ >reScraped/Romans_13.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_14_1611/ >reScraped/Romans_14.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_15_1611/ >reScraped/Romans_15.html
+curl https://www.kingjamesbibleonline.org/The-Epistle-to-the-Romanes_16_1611/ >reScraped/Romans_16.html
