@@ -59,6 +59,8 @@
             <elementRef key="docImprint"/>
             <elementRef key="titlePart"/>
             <elementRef key="head"/>
+            <elementRef key="trailer"/>
+            
             <elementRef key="note"/>
             <elementRef key="pb"/>
             <elementRef key="p"/>
