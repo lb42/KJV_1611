@@ -16,7 +16,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2017-06-18">Restore missing bits of apocrypha; correct IDs</change>
+           <change when="2017-10-26">Restore Romans</change>
+           <change when="2017-06-18">Restore missing bits of apocrypha; correct IDs</change>
             <change when="2017-03-26">Added several chapters which had been incorrectly downloaded</change>
             <change when="2017-03-19">Added TEI Header and titlepage from Wikimedia</change>
         </revisionDesc>
