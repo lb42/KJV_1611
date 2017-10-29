@@ -1,4 +1,4 @@
-<?xml-model href="../KJV_1611.rnc" type="application/relax-ng-compact-syntax"?>
+
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="CPrayer-of-Manasseh_01" type="chapter">
 
 
@@ -14,12 +14,10 @@
 
 
 
-<head>CHAP. I.</head>
-
+<head>¶ The prayer of Manasses King of Iuda, when he was holden captiue in
+Babylon.</head>
 <fw>Manasses his prayer.</fw>
-<ab n="1">[The
-prayer of Manasses King of Iuda, when he was holden captiue in
-Babylon.] O Lord, Almightie God of our Fathers, Abraham, Isaac, and
+<ab n="1"> O Lord, Almightie God of our Fathers, Abraham, Isaac, and
 Iacob, and of their righteous seed: who hast made heauen and earth,
 with all the ornament thereof: who hast bound the Sea by the word
 of thy Commandement: who hast shut vp the deepe, and sealed it by

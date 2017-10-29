@@ -27,11 +27,14 @@
          <p>The text is considered as a unitary document, with front matter containing just the
             titlepage. The body of the text is divided into <gi>div</gi> elements, the first level
                <tag>div type="book"</tag> corresponding with the traditional books of the bible, and
-            the second <tag>div type="chapter"</tag> corresponding with the chapters. Within
-            chapters, each verse is tagged as an <gi>ab</gi> element. No attempt has been made to
-            indicate groups of texts, for example, the two testaments, the pentateuch, etc. If
-            desired these groupings could be provided by an alternative driver file, similar to the
-            existing main driver file <ident>KJV_1611.xml</ident> but using the <gi>group</gi>
+            the second <tag>div type="chapter"</tag> corresponding with the chapters. Most chapters
+            also contain a brief summary of their contents, which is marked using the
+               <gi>opener</gi> element; some also have an closing heading at the end, which is
+            marked using the <gi>trailer</gi> element. </p>
+         <p>Within chapters, each verse is tagged as an <gi>ab</gi> element. No attempt has been
+            made to indicate groups of texts, for example, the two testaments, the pentateuch, etc.
+            If desired these groupings could be provided by an alternative driver file, similar to
+            the existing main driver file <ident>KJV_1611.xml</ident> but using the <gi>group</gi>
             element to wrap the relevant inclusions.</p>
          <p>The <gi>fw</gi> element is used occasionally to tag parts of the running heads in the
             original, where these have been included in the transcription. The <gi>pb</gi> elements
@@ -40,12 +43,36 @@
          <p>The <gi>hi</gi> and <gi>label</gi> elements are included to permit the marking of
             significant font variation and structural labels respectively. The text of the KJV 1611
             is printed in a black letter font for the most part, with Roman used occasionally for
-            words added by the translators. At some stage we might use <gi>hi</gi> to indicate
-            these. The <gi>label</gi> element can be used for structural labels in the source which
-            don't necessarily coincide with the book/verse structure: examples include the Hebrew
-            letters used to indicate subdivisions of Psalm 119. The KJV transcript uses square
-            brackets both for these and for passages bracketted off in the source, which needs to be
-            resolved.</p>
+            words added by the translators. Such additions are also sometimes indicated by square
+            brackets, both in the source and the transcription. At some stage we might use
+               <gi>hi</gi> or <gi>add</gi> to indicate these. The <gi>label</gi> element can be used
+            for structural labels in the source which don't necessarily coincide with the book/verse
+            structure: examples include the Hebrew letters used to indicate subdivisions of Psalm
+            119. The KJV transcript also uses square brackets for headings or titles such as those
+            of the Psalms.</p>
+         <p>The KJV transcript used as source for this text omits or treats inconsistently a number
+            of other aspects of the original printed source, in particular: <list>
+               <item>The text of the side notes in the margin is preserved and marked as a
+                     <gi>note</gi> element. However, all the notes applicable to a single verse are
+                  concatenated into a single note supplied at the end of the verse concerned. The
+                  sigla used in the original printed source to distinguish cross references from
+                  glosses and to indicate the point of attachment of the note have not been
+                  preserved. </item>
+               <item>Words hyphenated across line boundaries have (mostly) been re-assembled
+                  silently in the transcription, with hyphens suppressed. Column breaks have not
+                  been preserved. Long S is mostly transcribed as short S, but the original printed
+                  source's use of u/v or i/j has been preserved. The pilcrow sign is retained in the
+                  text. </item>
+               <item>The printed source represents the name of God fairly consistently as LORD, in
+                  upper case, usually with some additional whitespace between the letters. The
+                  transcription preserves some of these, but for the most part normalises all such
+                  references to "Lord". </item>
+               <item>The printed source text has a running title for each chapter, associated with
+                  additional headings which vary from page to page. The variant parts have been
+                  marked up using the <gi>fw</gi> tag where they have been preserved in the
+                  transcription. The location of the <gi>fw</gi> and <gi>pb</gi> elements within the
+               text flow is however very approximate. </item>
+            </list></p>
          <p>This schema provides a large number of redundant attributes not used in the encoding.
                <foreign xml:lang="la">Ars longa vita brevis</foreign>.</p>
          <schemaSpec ident="KJV1611" start="div TEI">
@@ -60,7 +87,7 @@
             <elementRef key="titlePart"/>
             <elementRef key="head"/>
             <elementRef key="trailer"/>
-            
+            <elementRef key="opener"/>
             <elementRef key="note"/>
             <elementRef key="pb"/>
             <elementRef key="p"/>
